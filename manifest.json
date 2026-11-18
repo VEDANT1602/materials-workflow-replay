@@ -1,0 +1,41 @@
+{
+  "prompt": "Compare a cubic and a continuous piecewise-linear fit to the copper expansion measurements. Which predicts held-out temperatures more accurately?",
+  "inputs": {
+    "Hahn1.dat_sha256": "7e885af48e18a222033a66cb22b491f0f5bc761b652142c0d9b28132daf63956",
+    "observations": 236,
+    "certified_sse_crosscheck": 1.5324382855679368
+  },
+  "retrieval": "https://raw.githubusercontent.com/ceres-solver/ceres-solver/master/data/nist/Hahn1.dat",
+  "analysis": "run.py",
+  "analysis_sha256": "521fcf6e1986cff1fd3245fdc0f58891a0b977bda4ad24431f1c39370fbab940",
+  "python": "3.11.9",
+  "python_packages": {
+    "numpy": "1.26.0"
+  },
+  "field_dictionary": {
+    "temperature_range": [
+      "all",
+      "at_least_77K"
+    ],
+    "holdout": [
+      "interleaved",
+      "interior_gap",
+      "hot_tail"
+    ],
+    "coordinate": [
+      "kelvin",
+      "log_kelvin"
+    ],
+    "evaluation_weight": [
+      "observation",
+      "equal_bins"
+    ]
+  },
+  "selected_run_example": {
+    "temperature_range": "all",
+    "holdout": "interleaved",
+    "coordinate": "kelvin",
+    "evaluation_weight": "observation"
+  },
+  "reproduce": "python run.py"
+}

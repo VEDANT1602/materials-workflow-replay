@@ -1,0 +1,17 @@
+fields,recorded,conclusion_identified,score_pair_identified,specifications,compatible_per_archive
+none,0,0,0,24,24
+temperature_range,1,0,0,24,12
+holdout,1,0,0,24,8
+coordinate,1,0,0,24,12
+evaluation_weight,1,0,0,24,12
+temperature_range + holdout,2,8,0,24,4
+temperature_range + coordinate,2,12,0,24,6
+temperature_range + evaluation_weight,2,0,0,24,6
+holdout + coordinate,2,12,0,24,4
+holdout + evaluation_weight,2,0,0,24,4
+coordinate + evaluation_weight,2,6,0,24,6
+temperature_range + holdout + coordinate,3,22,0,24,2
+temperature_range + holdout + evaluation_weight,3,10,0,24,2
+temperature_range + coordinate + evaluation_weight,3,15,0,24,3
+holdout + coordinate + evaluation_weight,3,14,0,24,2
+temperature_range + holdout + coordinate + evaluation_weight,4,24,24,24,1
