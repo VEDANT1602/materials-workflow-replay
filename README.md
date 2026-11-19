@@ -1,30 +1,14 @@
-# Which analysis choices let a reader recover a materials result?
+# The same 40 copper measurements select two different models
 
-Two analysts can start with the same 236 copper measurements, fit the same models, and still disagree about which one predicts better. In one comparison here, the analysts even use the same 40 held-out observations and the same predictions. Changing the weight of those observations is enough to reverse the ranking.
+Two rows of the archived results use the same training set, held-out observations and model predictions. With one vote per observation, a cubic polynomial beats a two-knot linear spline on held-out error, 0.433 versus 0.445 RMSE. Giving each occupied temperature bin equal total weight reverses the result, 0.404 for the cubic versus 0.362 for the spline. The change is entirely in the scoring rule. [Both rows](results.csv?plain=1#L14)
 
-**Vedant Thaker** · Research software and working paper  
-[Read the paper (PDF)](manuscript.pdf) · [Read the editable manuscript](manuscript.md) · [Explore the 24 model comparisons](results.csv)
+![Held-out model ranking changes under two evaluation weights](figure.png)
 
-## The experiment
+The fits use the 236 observations in the NIST Hahn1 copper thermal-expansion dataset. Repeated measurements at the same temperature stay together in the split. Each model fits four coefficients, with scaling and spline knots set from the training observations. The archive varies four choices: the eligible temperature range, holdout, coordinate transform, and weighting. [Training-only knots](run.py#L52) · [Original observations](Hahn1.dat)
 
-The input is the NIST Hahn1 copper thermal-expansion dataset. A cubic polynomial and a continuous, two-knot linear spline each fit four coefficients by least squares. Training observations alone determine coordinate scaling and knot locations. Replicates at the same temperature stay together when assigning a holdout.
+## What could another analyst recover?
 
-Four choices define 24 complete specifications. The analysis crosses the eligible temperature range (all observations or at least 77 K), holdout (interleaved, interior gap or hot tail), coordinate (kelvin or log kelvin), and evaluation weights (per observation or equal total weight per occupied temperature bin). The fitted models are scored using held-out root-mean-square error (RMSE).
-
-The archive experiment then hides each possible subset of those fields. A reader can recover the model choice when all compatible specifications name the same winner. Recovering the score pair also requires agreement on both RMSE values to eight decimal places.
-
-## What the replay recovers
-
-| Available information | Specifications with an identifiable winner | Specifications with an identifiable score pair |
-| --- | ---: | ---: |
-| No field assignments | 0 / 24 | 0 / 24 |
-| Temperature range and coordinate | 12 / 24 | 0 / 24 |
-| Temperature range, holdout and coordinate | 22 / 24 | 0 / 24 |
-| All four fields | 24 / 24 | 24 / 24 |
-
-The spline wins 15 comparisons and the cubic wins nine. The figure shows the two ambiguous specifications in the third row. With equal weight per observation, the cubic has lower RMSE (0.433 versus 0.445). With equal total weight per occupied temperature bin, the spline has lower RMSE (0.362 versus 0.404).
-
-![The cubic and spline switch order when the weights of 40 held-out observations change](figure.png)
+With the range, holdout and coordinate recorded, 22 of 24 specifications identify a winner, and none uniquely identifies both scores to eight decimal places. Adding the weighting field recovers both scores in all 24. An example prompt is included in the manifest as an experimental fixture. The replay enumerates a finite set of specifications. It measures ambiguity in this archive, regardless of how a future analyst might choose among the possibilities. [Archive comparisons](archives.csv) · [Manifest and recorded fields](manifest.json) · [Manuscript](manuscript.md) · [Paper PDF](manuscript.pdf)
 
 ## Reproduce the result
 
@@ -43,10 +27,10 @@ python -m pip install -r requirements-plot.txt
 python make_figure.py
 ```
 
-## Data and interpretation
+## Input and archive
 
 - [Hahn1.dat](Hahn1.dat) preserves the input observations, certified coefficients and residual. [NIST dataset description](https://itl.nist.gov/div898/strd/nls/data/LINKS/i-hahn1.shtml)
 - [manifest.json](manifest.json) records the input and analysis checksums, runtime, example prompt and field dictionary.
 - [archives.csv](archives.csv) covers all 16 choices of fields to retain. [six_parameter_spline.csv](six_parameter_spline.csv) repeats the comparison with two extra spline knots.
 
-The counts describe this finite specification grid. They do not measure human rerunner behavior or sample the distribution of choices a language model would make. The model comparison provides a way to test whether an archive preserves the evidence for a decision.
+Maintained by Vedant Thaker.
