@@ -4,4 +4,5 @@
 *.csv -text
 *.dat -text
 /run.py -text
+/manifest.json -text
 /soma_modules/** -text
