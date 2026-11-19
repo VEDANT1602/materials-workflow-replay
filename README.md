@@ -4,7 +4,7 @@ Two rows of the archived results use the same training set, held-out observation
 
 ![Held-out model ranking changes under two evaluation weights](figure.png)
 
-The fits use the 236 observations in the NIST Hahn1 copper thermal-expansion dataset. Repeated measurements at the same temperature stay together in the split. Each model fits four coefficients, with scaling and spline knots set from the training observations. The archive varies four choices: the eligible temperature range, holdout, coordinate transform, and weighting. [Training-only knots](run.py#L52) · [Original observations](Hahn1.dat)
+The NIST Hahn1 copper thermal-expansion dataset contains 236 observations. Each model fits only the eligible rows in its training split. Repeated measurements at the same temperature stay together in the split. Each model fits four coefficients, with scaling and spline knots set from the training observations. The archive varies four choices: the eligible temperature range, holdout, coordinate transform, and weighting. [Training-only knots](run.py#L52) · [Original observations](Hahn1.dat)
 
 ## What could another analyst recover?
 
