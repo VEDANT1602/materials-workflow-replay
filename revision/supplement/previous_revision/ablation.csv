@@ -1,0 +1,17 @@
+fields,compatible,winner_recovered,scores_recovered
+none,24,0,0
+range,12,0,0
+holdout,8,0,0
+coordinate,12,0,0
+weights,12,0,0
+"range,holdout",4,8,0
+"range,coordinate",6,12,0
+"range,weights",6,0,0
+"holdout,coordinate",4,12,0
+"holdout,weights",4,0,0
+"coordinate,weights",6,6,0
+"range,holdout,coordinate",2,22,0
+"range,holdout,weights",2,10,0
+"range,coordinate,weights",3,15,0
+"holdout,coordinate,weights",2,14,0
+"range,holdout,coordinate,weights",1,24,24

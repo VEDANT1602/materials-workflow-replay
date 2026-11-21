@@ -1,0 +1,9 @@
+# Study 10 revision analyses — CPython 3.12.14, Linux x86_64, glibc 2.41.
+# Exact wheel hashes from the pip resolver; use a separate clean virtual environment.
+# All revision versions, including transitive versions, match the installed study-revision environment.
+# Installation: python -m pip install --require-hashes -r revision-cp312-linux-x86_64.lock
+--index-url https://pypi.org/simple
+--only-binary :all:
+
+# numpy-2.3.5-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+numpy==2.3.5 --hash=sha256:0d8163f43acde9a73c2a33605353a4f1bc4798745a8b1d73183b28e5b435ae28

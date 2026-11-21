@@ -1,0 +1,15 @@
+# Imperial reference-to-claim ledger
+
+Access logs distinguish primary data, published research and a mirrored data file. Each source below supports the described claim. Dataset identifiers, digests and file provenance are in supplement/README.md.
+
+| Ref. | Claim or use | Evidence locator and access |
+|---|---|---|
+| 1 | Handling ambiguous materials-science requests motivates documenting analytical decisions. The article is a perspective and supplies no quantitative evidence for this trial. | Lei, Docherty and Cooper, Digital Discovery 3 (2024), 1257–1272. Full author manuscript, §4.1 on interpreting requirements in automated 3D microstructure analysis and supplement §S3.4 on ambiguous figure captions in an extraction task. The paper discusses a different workflow; it provides motivation only. [DOI](https://doi.org/10.1039/D4DD00074A) · [Full author manuscript](https://arxiv.org/pdf/2403.06949) |
+| 2 | Workflow Run RO-Crate represents provenance at several levels. | Leo et al., PLOS ONE 19, e0309210, §2 “The Workflow Run RO-Crate profiles,” and §6. Open full text checked 21 November. [Article](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0309210) |
+| 3 | Multiverse analysis examines the effect of plausible alternative analytic decisions. | Steegen et al., Perspectives on Psychological Science 11, p. 702, abstract and framing. Author-hosted full text checked 21 November. [DOI](https://doi.org/10.1177/1745691616658637) · [Full text](https://sites.stat.columbia.edu/gelman/research/published/multiverse_published.pdf) |
+| 4 | Hahn1 contains 236 observed copper expansion measurements, with temperature in K; benchmark uses a seven-parameter rational model. | NIST StRD Hahn1 dataset and linked Additional Information; official file lines 41–52 give reference constants/results, lines 61–296 contain data. Checked 21 November. [NIST](https://www.itl.nist.gov/div898/strd/nls/data/hahn1.shtml) |
+| 5 | The archived NIST input is also distributed in the Ceres Solver test fixtures. | data/nist/Hahn1.dat; Git blob f3069d70abb3449eae006d330aa3f4a2506d1af4, header and data at the linked page. The equality claim comes from matching file digests. Checked 21 November. [Fixture](https://ceres-solver.googlesource.com/ceres-solver/+/master/data/nist/Hahn1.dat) |
+| 6 | Auto MPG includes 398 rows; displacement and city-cycle mpg are available without missing values. | UCI Dataset Information, Variables Table (displacement and mpg), Citation and License. Official file parsed on 21 November. [UCI](https://archive.ics.uci.edu/dataset/9/auto+mpg) |
+| 7 | Abalone includes 4,177 specimens and archived physical measurements plus observed ring counts. | UCI Dataset Information, Variables Table (length and rings), Citation and License. Official file parsed on 21 November. [UCI](https://archive.ics.uci.edu/dataset/1/abalone) |
+
+The recruitment page in the original list was removed. The finite-set identity follows directly from coordinatewise extrema over a finite set. It is not presented as a new identifiability theorem.

@@ -1,9 +1,10 @@
 cff-version: 1.2.0
-message: "Please use this citation when referring to the research software."
+message: "Please cite this software when reusing its methods."
 type: software
-title: "Which analysis choices let a reader recover a materials result?"
+title: "Recovering model choices and scores from incomplete analysis records on three measured datasets"
 authors:
   - family-names: Thaker
     given-names: Vedant
 repository-code: "https://github.com/VEDANT1602/materials-workflow-replay"
-abstract: "How incomplete workflow archives change model selection on NIST copper expansion data."
+date-released: 2026-11-21
+license: MIT

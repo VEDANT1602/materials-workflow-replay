@@ -1,0 +1,98 @@
+[
+  {
+    "id": "A1",
+    "fields": {
+      "holdout": "middle",
+      "coordinate": "log"
+    }
+  },
+  {
+    "id": "A2",
+    "fields": {
+      "holdout": "interleaved",
+      "coordinate": "raw"
+    }
+  },
+  {
+    "id": "A3",
+    "fields": {
+      "range": "upper",
+      "holdout": "hot",
+      "weights": "row"
+    }
+  },
+  {
+    "id": "A4",
+    "fields": {
+      "range": "all",
+      "holdout": "interleaved",
+      "weights": "row"
+    }
+  },
+  {
+    "id": "A5",
+    "fields": {
+      "range": "all",
+      "holdout": "middle",
+      "coordinate": "log",
+      "weights": "bins"
+    }
+  },
+  {
+    "id": "A6",
+    "fields": {
+      "range": "all",
+      "holdout": "hot",
+      "coordinate": "log",
+      "weights": "bins"
+    }
+  },
+  {
+    "id": "B1",
+    "fields": {
+      "coordinate": "raw",
+      "weights": "bins"
+    }
+  },
+  {
+    "id": "B2",
+    "fields": {
+      "range": "upper",
+      "holdout": "interleaved"
+    }
+  },
+  {
+    "id": "B3",
+    "fields": {
+      "range": "upper",
+      "coordinate": "log",
+      "weights": "row"
+    }
+  },
+  {
+    "id": "B4",
+    "fields": {
+      "range": "upper",
+      "holdout": "hot",
+      "weights": "row"
+    }
+  },
+  {
+    "id": "B5",
+    "fields": {
+      "range": "all",
+      "holdout": "interleaved",
+      "coordinate": "log",
+      "weights": "row"
+    }
+  },
+  {
+    "id": "B6",
+    "fields": {
+      "range": "upper",
+      "holdout": "hot",
+      "coordinate": "raw",
+      "weights": "row"
+    }
+  }
+]

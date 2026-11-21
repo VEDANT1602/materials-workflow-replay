@@ -1,0 +1,108 @@
+You are independently reconstructing previously run analyses from partial records. You have no tools and no outside information. Return ONE fenced Python block implementing this function and no prose:
+
+def replay(x, y, case_id, fields):
+    # return (winner, cubic_rmse, spline_rmse, completion, identified_or_uncertain)
+
+x and y are 1D NumPy arrays of measured positive predictors and real-valued responses. Use NumPy only. Each case belongs to dataset A or B. 'fields' is a dictionary of documented choices. The following is the entire set of permitted choices. Missing choices require your best deterministic guess; make the completion a four-key dictionary including all supplied fields. The fifth return value should be 'identified' if the winner agrees across every compatible completion or 'uncertain' otherwise. The first three values should always be numerical outputs and 'cubic' or 'spline' from your selected completion, even if the answer is uncertain. You may implement helper functions inside the code block. Code will run on the unshown raw data, with no opportunity to repair it after the source specification is unmasked.
+
+Range: 'all' rows or 'upper' rows with x >= median of all original x rows. Holdout: sort distinct retained predictor values and assign zero-based ranks; interleaved holds out ranks congruent to 2 modulo 5; middle holds out ranks floor(.4*n) up to but excluding floor(.6*n); hot holds out ranks at least floor(.8*n). All rows at the same x stay together. Coordinate: 'raw' original x or 'log' natural log x. Standardize by unweighted training mean and population SD only. Fit by unweighted ordinary least squares on training rows. Cubic uses 1,z,z^2,z^3. Spline uses 1,z,max(z-k1,0),max(z-k2,0), where k1,k2 are linear empirical one-third and two-thirds quantiles of the training z rows. Score test errors in original response units. Weights: 'row' means equal row weights; 'bins' divides raw test x into five equal-width intervals from test minimum to maximum, places internal boundaries in the bin to their right and the largest observation in the last bin. Give every occupied bin the same total weight. Take square root of weighted mean squared error. Smaller RMSE wins, exact ties go to the spline. Case IDs are arbitrary within each dataset. No further information on lost fields or branch frequencies is available.
+
+Masked case records:
+[
+  {
+    "id": "A1",
+    "fields": {
+      "holdout": "middle",
+      "coordinate": "log"
+    }
+  },
+  {
+    "id": "A2",
+    "fields": {
+      "holdout": "interleaved",
+      "coordinate": "raw"
+    }
+  },
+  {
+    "id": "A3",
+    "fields": {
+      "range": "upper",
+      "holdout": "hot",
+      "weights": "row"
+    }
+  },
+  {
+    "id": "A4",
+    "fields": {
+      "range": "all",
+      "holdout": "interleaved",
+      "weights": "row"
+    }
+  },
+  {
+    "id": "A5",
+    "fields": {
+      "range": "all",
+      "holdout": "middle",
+      "coordinate": "log",
+      "weights": "bins"
+    }
+  },
+  {
+    "id": "A6",
+    "fields": {
+      "range": "all",
+      "holdout": "hot",
+      "coordinate": "log",
+      "weights": "bins"
+    }
+  },
+  {
+    "id": "B1",
+    "fields": {
+      "coordinate": "raw",
+      "weights": "bins"
+    }
+  },
+  {
+    "id": "B2",
+    "fields": {
+      "range": "upper",
+      "holdout": "interleaved"
+    }
+  },
+  {
+    "id": "B3",
+    "fields": {
+      "range": "upper",
+      "coordinate": "log",
+      "weights": "row"
+    }
+  },
+  {
+    "id": "B4",
+    "fields": {
+      "range": "upper",
+      "holdout": "hot",
+      "weights": "row"
+    }
+  },
+  {
+    "id": "B5",
+    "fields": {
+      "range": "all",
+      "holdout": "interleaved",
+      "coordinate": "log",
+      "weights": "row"
+    }
+  },
+  {
+    "id": "B6",
+    "fields": {
+      "range": "upper",
+      "holdout": "hot",
+      "coordinate": "raw",
+      "weights": "row"
+    }
+  }
+]

@@ -1,4 +1,18 @@
-# The same 40 copper measurements select two different models
+# Recovering model choices and scores from incomplete analysis records on three measured datasets
+
+Vedant Thaker · November 21, 2026
+
+A model name can survive a missing analysis decision even when its reported errors cannot. This study enumerates 24 cubic-versus-spline comparisons on each of three measured datasets: copper thermal expansion, automobile fuel consumption and abalone ring counts.
+
+- [Revised manuscript (PDF)](manuscript.pdf) · [Editable manuscript](manuscript.md)
+- [Revision code, results and reproduction instructions](revision/supplement/) · [Preparation record](revision/PREPARATION.md)
+- [Baseline software and results at the study commit](https://github.com/VEDANT1602/materials-workflow-replay/tree/4b7f708f6d655c7636ed23efc23563da03b01604) · [Software license](LICENSE) · [Third-party terms](LICENSING.md)
+
+## Earlier study and reproduction instructions
+
+The following instructions and results describe the original study. The revised paper and its supplemental tests are linked above.
+
+### The same 40 copper measurements select two different models
 
 Two rows of the archived results use the same training set, held-out observations and model predictions. With one vote per observation, a cubic polynomial beats a two-knot linear spline on held-out error, 0.433 versus 0.445 RMSE. Giving each occupied temperature bin equal total weight reverses the result, 0.404 for the cubic versus 0.362 for the spline. The change is entirely in the scoring rule. [Both rows](results.csv?plain=1#L14)
 
@@ -8,7 +22,7 @@ The NIST Hahn1 copper thermal-expansion dataset contains 236 observations. Each 
 
 ## What could another analyst recover?
 
-With the range, holdout and coordinate recorded, 22 of 24 specifications identify a winner, and none uniquely identifies both scores to eight decimal places. Adding the weighting field recovers both scores in all 24. An example prompt is included in the manifest as an experimental fixture. The replay enumerates a finite set of specifications. It measures ambiguity in this archive, regardless of how a future analyst might choose among the possibilities. [Archive comparisons](archives.csv) · [Manifest and recorded fields](manifest.json) · [Manuscript](manuscript.md) · [Paper PDF](manuscript.pdf)
+With the range, holdout and coordinate recorded, 22 of 24 specifications identify a winner, and none uniquely identifies both scores to eight decimal places. Adding the weighting field recovers both scores in all 24. An example prompt is included in the manifest as an experimental fixture. The replay enumerates a finite set of specifications. It measures ambiguity in this archive, regardless of how a future analyst might choose among the possibilities. [Archive comparisons](archives.csv) · [Manifest and recorded fields](manifest.json) · [Manuscript](https://github.com/VEDANT1602/materials-workflow-replay/blob/4b7f708f6d655c7636ed23efc23563da03b01604/manuscript.md) · [Paper PDF](https://github.com/VEDANT1602/materials-workflow-replay/blob/4b7f708f6d655c7636ed23efc23563da03b01604/manuscript.pdf)
 
 ## Reproduce the result
 
