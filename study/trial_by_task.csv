@@ -1,0 +1,71 @@
+task,dataset,method,condition,n,separated,correct,selected_A,mean_absolute_auc_error
+3,kr-vs-kp,Qwen2.5-0.5B-Instruct,accuracy,16,0,8.0,16.0,0.002019
+3,kr-vs-kp,SmolLM2-135M-Instruct,accuracy,16,0,8.0,16.0,0.002019
+3,kr-vs-kp,Always A,accuracy,16,0,8.0,16.0,0.002019
+3,kr-vs-kp,First compatible,accuracy,16,0,8.0,16.0,0.002019
+3,kr-vs-kp,Uniform random,accuracy,16,0,8.0,8.0,0.00699084375
+3,kr-vs-kp,Qwen2.5-0.5B-Instruct,accuracy_kappa,16,0,8.0,16.0,0.002019
+3,kr-vs-kp,SmolLM2-135M-Instruct,accuracy_kappa,16,0,8.0,16.0,0.002019
+3,kr-vs-kp,Always A,accuracy_kappa,16,0,8.0,16.0,0.002019
+3,kr-vs-kp,First compatible,accuracy_kappa,16,0,8.0,16.0,0.002019
+3,kr-vs-kp,Uniform random,accuracy_kappa,16,0,8.0,8.0,0.00699084375
+6,letter,Qwen2.5-0.5B-Instruct,accuracy,16,0,8.0,16.0,0.002114937500000004
+6,letter,SmolLM2-135M-Instruct,accuracy,16,0,8.0,16.0,0.002114937500000004
+6,letter,Always A,accuracy,16,0,8.0,16.0,0.002114937500000004
+6,letter,First compatible,accuracy,16,0,8.0,16.0,0.002114937500000004
+6,letter,Uniform random,accuracy,16,0,8.0,8.0,0.0030489062500000004
+6,letter,Qwen2.5-0.5B-Instruct,accuracy_kappa,16,0,8.0,16.0,0.002114937500000004
+6,letter,SmolLM2-135M-Instruct,accuracy_kappa,16,0,8.0,16.0,0.002114937500000004
+6,letter,Always A,accuracy_kappa,16,0,8.0,16.0,0.002114937500000004
+6,letter,First compatible,accuracy_kappa,16,0,8.0,16.0,0.002114937500000004
+6,letter,Uniform random,accuracy_kappa,16,0,8.0,8.0,0.0030489062500000004
+12,mfeat-factors,Qwen2.5-0.5B-Instruct,accuracy,16,0,8.0,16.0,0.000852187499999997
+12,mfeat-factors,SmolLM2-135M-Instruct,accuracy,16,0,8.0,16.0,0.000852187499999997
+12,mfeat-factors,Always A,accuracy,16,0,8.0,16.0,0.000852187499999997
+12,mfeat-factors,First compatible,accuracy,16,0,8.0,16.0,0.000852187499999997
+12,mfeat-factors,Uniform random,accuracy,16,0,8.0,8.0,0.0004422812499999991
+12,mfeat-factors,Qwen2.5-0.5B-Instruct,accuracy_kappa,16,0,8.0,16.0,0.000852187499999997
+12,mfeat-factors,SmolLM2-135M-Instruct,accuracy_kappa,16,0,8.0,16.0,0.000852187499999997
+12,mfeat-factors,Always A,accuracy_kappa,16,0,8.0,16.0,0.000852187499999997
+12,mfeat-factors,First compatible,accuracy_kappa,16,0,8.0,16.0,0.000852187499999997
+12,mfeat-factors,Uniform random,accuracy_kappa,16,0,8.0,8.0,0.0004422812499999991
+23,cmc,Qwen2.5-0.5B-Instruct,accuracy,16,0,8.0,16.0,0.002029312500000005
+23,cmc,SmolLM2-135M-Instruct,accuracy,16,0,8.0,16.0,0.002029312500000005
+23,cmc,Always A,accuracy,16,0,8.0,16.0,0.002029312500000005
+23,cmc,First compatible,accuracy,16,0,8.0,16.0,0.002029312500000005
+23,cmc,Uniform random,accuracy,16,0,8.0,8.0,0.0015020937500000026
+23,cmc,Qwen2.5-0.5B-Instruct,accuracy_kappa,16,0,8.0,16.0,0.002029312500000005
+23,cmc,SmolLM2-135M-Instruct,accuracy_kappa,16,0,8.0,16.0,0.002029312500000005
+23,cmc,Always A,accuracy_kappa,16,0,8.0,16.0,0.002029312500000005
+23,cmc,First compatible,accuracy_kappa,16,0,8.0,16.0,0.002029312500000005
+23,cmc,Uniform random,accuracy_kappa,16,0,8.0,8.0,0.0015020937500000026
+28,optdigits,Qwen2.5-0.5B-Instruct,accuracy,16,0,8.0,16.0,0.0006471874999999933
+28,optdigits,SmolLM2-135M-Instruct,accuracy,16,0,8.0,16.0,0.0006471874999999933
+28,optdigits,Always A,accuracy,16,0,8.0,16.0,0.0006471874999999933
+28,optdigits,First compatible,accuracy,16,0,8.0,16.0,0.0006471874999999933
+28,optdigits,Uniform random,accuracy,16,0,8.0,8.0,0.0004785624999999946
+28,optdigits,Qwen2.5-0.5B-Instruct,accuracy_kappa,16,0,8.0,16.0,0.0006471874999999933
+28,optdigits,SmolLM2-135M-Instruct,accuracy_kappa,16,0,8.0,16.0,0.0006471874999999933
+28,optdigits,Always A,accuracy_kappa,16,0,8.0,16.0,0.0006471874999999933
+28,optdigits,First compatible,accuracy_kappa,16,0,8.0,16.0,0.0006471874999999933
+28,optdigits,Uniform random,accuracy_kappa,16,0,8.0,8.0,0.0004785624999999946
+31,credit-g,Qwen2.5-0.5B-Instruct,accuracy,16,0,8.0,16.0,0.037267125000000005
+31,credit-g,SmolLM2-135M-Instruct,accuracy,16,0,8.0,16.0,0.037267125000000005
+31,credit-g,Always A,accuracy,16,0,8.0,16.0,0.037267125000000005
+31,credit-g,First compatible,accuracy,16,0,8.0,16.0,0.037267125000000005
+31,credit-g,Uniform random,accuracy,16,0,8.0,8.0,0.027761812500000007
+31,credit-g,Qwen2.5-0.5B-Instruct,accuracy_kappa,16,3,8.0,16.0,0.037267125000000005
+31,credit-g,SmolLM2-135M-Instruct,accuracy_kappa,16,3,8.0,16.0,0.037267125000000005
+31,credit-g,Always A,accuracy_kappa,16,3,8.0,16.0,0.037267125000000005
+31,credit-g,First compatible,accuracy_kappa,16,3,10.0,14.0,0.02342525
+31,credit-g,Uniform random,accuracy_kappa,16,3,8.0,8.0,0.027761812500000007
+37,diabetes,Qwen2.5-0.5B-Instruct,accuracy,16,0,8.0,16.0,0.015149812499999998
+37,diabetes,SmolLM2-135M-Instruct,accuracy,16,0,8.0,16.0,0.015149812499999998
+37,diabetes,Always A,accuracy,16,0,8.0,16.0,0.015149812499999998
+37,diabetes,First compatible,accuracy,16,0,8.0,16.0,0.015149812499999998
+37,diabetes,Uniform random,accuracy,16,0,8.0,8.0,0.00955843908873601
+37,diabetes,Qwen2.5-0.5B-Instruct,accuracy_kappa,16,1,8.0,16.0,0.015149812499999998
+37,diabetes,SmolLM2-135M-Instruct,accuracy_kappa,16,1,8.0,16.0,0.015149812499999998
+37,diabetes,Always A,accuracy_kappa,16,1,8.0,16.0,0.015149812499999998
+37,diabetes,First compatible,accuracy_kappa,16,1,9.0,15.0,0.014397249999999993
+37,diabetes,Uniform random,accuracy_kappa,16,1,8.0,8.0,0.00955843908873601

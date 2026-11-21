@@ -1,0 +1,9 @@
+# Human follow-up materials
+
+Public protocol and blank forms. The unadministered production cases, two condition-specific participant packets, source mapping and scoring keys are held by the study coordinator. Only blank templates and zero-outcome scripts are public. No human responses were collected.
+
+The linkage experiment supplies 28 cases drawn from seven tasks, two alternatives per case, and one preassigned original. Each participant receives only one counterbalanced form. Participants choose A or B and separately mark whether the evidence is unique or tied. The proposed endpoints are exact-source identification and absolute archived AUC error.
+
+The second task contains eight other held-out runs and requires a fresh, executable AUC calculation from real anonymized out-of-fold predictions. Assign participants to one group before exposing any files. In one group, every case includes the full aggregation convention. In the other group, every case omits it. Hold the condition between participants so seeing a complete example cannot teach the incomplete-condition participants a convention. Ask for six-decimal AUC, executable source, dependency versions and an explanation of aggregation. Score six-decimal agreement and absolute error at the run level, retaining discrepancies between returned code and reported values for adjudication.
+
+Before use, prospectively fix recruitment and sample size, primary endpoint, unit of analysis, missing-code handling, oversight and consent requirements, baseline and estimand. Staff handing packets to participants should not possess the outcome key. The participant must not have seen the manuscript, the catalog lookup explanation or the alternative condition. Public historical inputs can potentially be recognized or searched; record any prior exposure. Separate the achieved evidence from the future experiment.

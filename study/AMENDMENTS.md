@@ -1,0 +1,2 @@
+# Before inference
+At 12:34 UTC on 21 November, task 44 returned OpenML error 151 (“Unknown task”) and the evaluation request returned error 542 (“No results”). Its three metrics were unavailable. It was excluded without replacement, as allowed in the protocol. Each of the seven remaining tasks returned 384 matched runs with all three metrics. No model responses had been collected. No full-text source was supplied to any scoring model.

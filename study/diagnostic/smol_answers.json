@@ -1,0 +1,22 @@
+{
+  "model": "SmolLM2-135M-Instruct",
+  "repository": "bartowski/SmolLM2-135M-Instruct-GGUF",
+  "revision": "09816acd5d99df7be770d85ea30822623dab342c",
+  "filename": "SmolLM2-135M-Instruct-Q4_K_M.gguf",
+  "sha256": "2e8040ceae7815abe0dcb3540b9995eaa1fa0d2ca9e797d0a635ae4433c68c2d",
+  "engine": "llama-cpp-python",
+  "version": "0.3.19",
+  "threads": 2,
+  "started_utc": "2026-11-21T12:41:29.489280+00:00",
+  "ended_utc": "2026-11-21T12:41:56.862950+00:00",
+  "token_A": [
+    49
+  ],
+  "token_B": [
+    50
+  ],
+  "number_of_responses": 98,
+  "distinct_prompts": 58,
+  "chat_template": "{% for message in messages %}{% if loop.first and messages[0]['role'] != 'system' %}{{ '<|im_start|>system\nYou are a helpful AI assistant named SmolLM, trained by Hugging Face<|im_end|>\n' }}{% endif %}{{'<|im_start|>' + message['role'] + '\n' + message['content'] + '<|im_end|>' + '\n'}}{% endfor %}{% if add_generation_prompt %}{{ '<|im_start|>assistant\n' }}{% endif %}",
+  "architecture": "llama"
+}

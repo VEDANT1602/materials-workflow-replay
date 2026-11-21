@@ -1,0 +1,495 @@
+{
+  "system": "You are matching a damaged evaluation record to one of two catalog entries. Use only the fields shown. Select A or B. If both entries match the export equally well, choose your best guess. Reply with just the letter.",
+  "cases": [
+    {
+      "pair": "D001-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 95%, kappa 1.0.\nCatalog B: accuracy 95%, kappa 0.9.\nRecovered export: accuracy 95%, kappa 1.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D001-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 95%, kappa 1.0.\nCatalog B: accuracy 95%, kappa 0.9.\nRecovered export: accuracy 95%, kappa 0.9.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D002-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 52%, kappa 0.2.\nCatalog B: accuracy 52%, kappa 0.3.\nRecovered export: accuracy 52%, kappa 0.3.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D002-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 52%, kappa 0.2.\nCatalog B: accuracy 52%, kappa 0.3.\nRecovered export: accuracy 52%, kappa 0.2.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D003-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 48%, kappa 0.1.\nCatalog B: accuracy 48%, kappa 0.2.\nRecovered export: accuracy 48%, kappa 0.2.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D003-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 48%, kappa 0.1.\nCatalog B: accuracy 48%, kappa 0.2.\nRecovered export: accuracy 48%, kappa 0.1.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D004-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 43%, kappa 0.0.\nCatalog B: accuracy 43%, kappa 0.1.\nRecovered export: accuracy 43%, kappa 0.1.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D004-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 43%, kappa 0.0.\nCatalog B: accuracy 43%, kappa 0.1.\nRecovered export: accuracy 43%, kappa 0.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D005-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 46%, kappa 0.1.\nCatalog B: accuracy 46%, kappa 0.2.\nRecovered export: accuracy 46%, kappa 0.1.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D005-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 46%, kappa 0.1.\nCatalog B: accuracy 46%, kappa 0.2.\nRecovered export: accuracy 46%, kappa 0.2.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D006-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 51%, kappa 0.2.\nCatalog B: accuracy 51%, kappa 0.3.\nRecovered export: accuracy 51%, kappa 0.2.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D006-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 51%, kappa 0.2.\nCatalog B: accuracy 51%, kappa 0.3.\nRecovered export: accuracy 51%, kappa 0.3.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D007-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 48%, kappa 0.1.\nCatalog B: accuracy 48%, kappa 0.2.\nRecovered export: accuracy 48%, kappa 0.1.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D007-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 48%, kappa 0.1.\nCatalog B: accuracy 48%, kappa 0.2.\nRecovered export: accuracy 48%, kappa 0.2.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D008-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 43%, kappa 0.0.\nCatalog B: accuracy 43%, kappa 0.1.\nRecovered export: accuracy 43%, kappa 0.1.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D008-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 43%, kappa 0.0.\nCatalog B: accuracy 43%, kappa 0.1.\nRecovered export: accuracy 43%, kappa 0.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D009-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 52%, kappa 0.2.\nCatalog B: accuracy 52%, kappa 0.3.\nRecovered export: accuracy 52%, kappa 0.3.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D009-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 52%, kappa 0.2.\nCatalog B: accuracy 52%, kappa 0.3.\nRecovered export: accuracy 52%, kappa 0.2.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D010-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 51%, kappa 0.3.\nCatalog B: accuracy 51%, kappa 0.2.\nRecovered export: accuracy 51%, kappa 0.3.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D010-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 51%, kappa 0.3.\nCatalog B: accuracy 51%, kappa 0.2.\nRecovered export: accuracy 51%, kappa 0.2.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D011-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 51%, kappa 0.3.\nCatalog B: accuracy 51%, kappa 0.2.\nRecovered export: accuracy 51%, kappa 0.2.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D011-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 51%, kappa 0.3.\nCatalog B: accuracy 51%, kappa 0.2.\nRecovered export: accuracy 51%, kappa 0.3.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D012-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 52%, kappa 0.2.\nCatalog B: accuracy 52%, kappa 0.3.\nRecovered export: accuracy 52%, kappa 0.3.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D012-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 52%, kappa 0.2.\nCatalog B: accuracy 52%, kappa 0.3.\nRecovered export: accuracy 52%, kappa 0.2.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D013-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 43%, kappa 0.0.\nCatalog B: accuracy 43%, kappa 0.1.\nRecovered export: accuracy 43%, kappa 0.1.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D013-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 43%, kappa 0.0.\nCatalog B: accuracy 43%, kappa 0.1.\nRecovered export: accuracy 43%, kappa 0.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D014-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 51%, kappa 0.2.\nCatalog B: accuracy 51%, kappa 0.3.\nRecovered export: accuracy 51%, kappa 0.3.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D014-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 51%, kappa 0.2.\nCatalog B: accuracy 51%, kappa 0.3.\nRecovered export: accuracy 51%, kappa 0.2.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D015-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 51%, kappa 0.3.\nCatalog B: accuracy 51%, kappa 0.2.\nRecovered export: accuracy 51%, kappa 0.2.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D015-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 51%, kappa 0.3.\nCatalog B: accuracy 51%, kappa 0.2.\nRecovered export: accuracy 51%, kappa 0.3.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D016-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 48%, kappa 0.2.\nCatalog B: accuracy 48%, kappa 0.1.\nRecovered export: accuracy 48%, kappa 0.1.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D016-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 48%, kappa 0.2.\nCatalog B: accuracy 48%, kappa 0.1.\nRecovered export: accuracy 48%, kappa 0.2.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D017-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 53%, kappa 0.2.\nCatalog B: accuracy 53%, kappa 0.3.\nRecovered export: accuracy 53%, kappa 0.3.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D017-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 53%, kappa 0.2.\nCatalog B: accuracy 53%, kappa 0.3.\nRecovered export: accuracy 53%, kappa 0.2.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D018-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 70%, kappa 0.3.\nCatalog B: accuracy 70%, kappa 0.0.\nRecovered export: accuracy 70%, kappa 0.3.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D018-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 70%, kappa 0.3.\nCatalog B: accuracy 70%, kappa 0.0.\nRecovered export: accuracy 70%, kappa 0.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D019-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 71%, kappa 0.2.\nCatalog B: accuracy 71%, kappa 0.3.\nRecovered export: accuracy 71%, kappa 0.2.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D019-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 71%, kappa 0.2.\nCatalog B: accuracy 71%, kappa 0.3.\nRecovered export: accuracy 71%, kappa 0.3.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D020-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 70%, kappa 0.2.\nCatalog B: accuracy 70%, kappa 0.0.\nRecovered export: accuracy 70%, kappa 0.2.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D020-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 70%, kappa 0.2.\nCatalog B: accuracy 70%, kappa 0.0.\nRecovered export: accuracy 70%, kappa 0.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D021-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 71%, kappa 0.3.\nCatalog B: accuracy 71%, kappa 0.2.\nRecovered export: accuracy 71%, kappa 0.3.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D021-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 71%, kappa 0.3.\nCatalog B: accuracy 71%, kappa 0.2.\nRecovered export: accuracy 71%, kappa 0.2.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D022-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 70%, kappa 0.3.\nCatalog B: accuracy 70%, kappa 0.0.\nRecovered export: accuracy 70%, kappa 0.3.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D022-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 70%, kappa 0.3.\nCatalog B: accuracy 70%, kappa 0.0.\nRecovered export: accuracy 70%, kappa 0.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D023-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 69%, kappa 0.1.\nCatalog B: accuracy 69%, kappa -0.0.\nRecovered export: accuracy 69%, kappa -0.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D023-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 69%, kappa 0.1.\nCatalog B: accuracy 69%, kappa -0.0.\nRecovered export: accuracy 69%, kappa 0.1.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D024-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 70%, kappa 0.3.\nCatalog B: accuracy 70%, kappa 0.0.\nRecovered export: accuracy 70%, kappa 0.3.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D024-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 70%, kappa 0.3.\nCatalog B: accuracy 70%, kappa 0.0.\nRecovered export: accuracy 70%, kappa 0.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D025-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 70%, kappa 0.0.\nCatalog B: accuracy 70%, kappa 0.2.\nRecovered export: accuracy 70%, kappa 0.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D025-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 70%, kappa 0.0.\nCatalog B: accuracy 70%, kappa 0.2.\nRecovered export: accuracy 70%, kappa 0.2.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D026-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 70%, kappa 0.0.\nCatalog B: accuracy 70%, kappa 0.4.\nRecovered export: accuracy 70%, kappa 0.4.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D026-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 70%, kappa 0.0.\nCatalog B: accuracy 70%, kappa 0.4.\nRecovered export: accuracy 70%, kappa 0.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D027-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 68%, kappa 0.1.\nCatalog B: accuracy 68%, kappa 0.2.\nRecovered export: accuracy 68%, kappa 0.2.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D027-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 68%, kappa 0.1.\nCatalog B: accuracy 68%, kappa 0.2.\nRecovered export: accuracy 68%, kappa 0.1.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D028-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 69%, kappa -0.0.\nCatalog B: accuracy 69%, kappa 0.2.\nRecovered export: accuracy 69%, kappa -0.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D028-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 69%, kappa -0.0.\nCatalog B: accuracy 69%, kappa 0.2.\nRecovered export: accuracy 69%, kappa 0.2.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D029-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 70%, kappa 0.1.\nCatalog B: accuracy 70%, kappa 0.0.\nRecovered export: accuracy 70%, kappa 0.1.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D029-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 70%, kappa 0.1.\nCatalog B: accuracy 70%, kappa 0.0.\nRecovered export: accuracy 70%, kappa 0.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D030-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 70%, kappa 0.0.\nCatalog B: accuracy 70%, kappa 0.2.\nRecovered export: accuracy 70%, kappa 0.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D030-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 70%, kappa 0.0.\nCatalog B: accuracy 70%, kappa 0.2.\nRecovered export: accuracy 70%, kappa 0.2.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D031-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 71%, kappa 0.2.\nCatalog B: accuracy 71%, kappa 0.3.\nRecovered export: accuracy 71%, kappa 0.2.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D031-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 71%, kappa 0.2.\nCatalog B: accuracy 71%, kappa 0.3.\nRecovered export: accuracy 71%, kappa 0.3.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D032-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 72%, kappa 0.2.\nCatalog B: accuracy 72%, kappa 0.3.\nRecovered export: accuracy 72%, kappa 0.3.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D032-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 72%, kappa 0.2.\nCatalog B: accuracy 72%, kappa 0.3.\nRecovered export: accuracy 72%, kappa 0.2.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D033-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 70%, kappa 0.0.\nCatalog B: accuracy 70%, kappa 0.3.\nRecovered export: accuracy 70%, kappa 0.3.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D033-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 70%, kappa 0.0.\nCatalog B: accuracy 70%, kappa 0.3.\nRecovered export: accuracy 70%, kappa 0.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D034-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 76%, kappa 0.5.\nCatalog B: accuracy 76%, kappa 0.4.\nRecovered export: accuracy 76%, kappa 0.5.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D034-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 76%, kappa 0.5.\nCatalog B: accuracy 76%, kappa 0.4.\nRecovered export: accuracy 76%, kappa 0.4.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D035-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 76%, kappa 0.5.\nCatalog B: accuracy 76%, kappa 0.4.\nRecovered export: accuracy 76%, kappa 0.4.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D035-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 76%, kappa 0.5.\nCatalog B: accuracy 76%, kappa 0.4.\nRecovered export: accuracy 76%, kappa 0.5.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D036-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 77%, kappa 0.4.\nCatalog B: accuracy 77%, kappa 0.5.\nRecovered export: accuracy 77%, kappa 0.5.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D036-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 77%, kappa 0.4.\nCatalog B: accuracy 77%, kappa 0.5.\nRecovered export: accuracy 77%, kappa 0.4.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D037-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 76%, kappa 0.5.\nCatalog B: accuracy 76%, kappa 0.4.\nRecovered export: accuracy 76%, kappa 0.4.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D037-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 76%, kappa 0.5.\nCatalog B: accuracy 76%, kappa 0.4.\nRecovered export: accuracy 76%, kappa 0.5.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D038-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 76%, kappa 0.4.\nCatalog B: accuracy 76%, kappa 0.5.\nRecovered export: accuracy 76%, kappa 0.4.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D038-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 76%, kappa 0.4.\nCatalog B: accuracy 76%, kappa 0.5.\nRecovered export: accuracy 76%, kappa 0.5.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D039-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 71%, kappa 0.4.\nCatalog B: accuracy 71%, kappa 0.2.\nRecovered export: accuracy 71%, kappa 0.4.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D039-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 71%, kappa 0.4.\nCatalog B: accuracy 71%, kappa 0.2.\nRecovered export: accuracy 71%, kappa 0.2.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D040-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 72%, kappa 0.4.\nCatalog B: accuracy 72%, kappa 0.3.\nRecovered export: accuracy 72%, kappa 0.4.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D040-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 72%, kappa 0.4.\nCatalog B: accuracy 72%, kappa 0.3.\nRecovered export: accuracy 72%, kappa 0.3.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D041-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 76%, kappa 0.4.\nCatalog B: accuracy 76%, kappa 0.5.\nRecovered export: accuracy 76%, kappa 0.4.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D041-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 76%, kappa 0.4.\nCatalog B: accuracy 76%, kappa 0.5.\nRecovered export: accuracy 76%, kappa 0.5.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D042-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 71%, kappa 0.3.\nCatalog B: accuracy 71%, kappa 0.2.\nRecovered export: accuracy 71%, kappa 0.3.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D042-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 71%, kappa 0.3.\nCatalog B: accuracy 71%, kappa 0.2.\nRecovered export: accuracy 71%, kappa 0.2.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D043-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 71%, kappa 0.3.\nCatalog B: accuracy 71%, kappa 0.4.\nRecovered export: accuracy 71%, kappa 0.3.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D043-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 71%, kappa 0.3.\nCatalog B: accuracy 71%, kappa 0.4.\nRecovered export: accuracy 71%, kappa 0.4.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D044-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 68%, kappa 0.2.\nCatalog B: accuracy 68%, kappa 0.3.\nRecovered export: accuracy 68%, kappa 0.2.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D044-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 68%, kappa 0.2.\nCatalog B: accuracy 68%, kappa 0.3.\nRecovered export: accuracy 68%, kappa 0.3.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D045-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 77%, kappa 0.5.\nCatalog B: accuracy 77%, kappa 0.4.\nRecovered export: accuracy 77%, kappa 0.5.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D045-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 77%, kappa 0.5.\nCatalog B: accuracy 77%, kappa 0.4.\nRecovered export: accuracy 77%, kappa 0.4.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D046-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 72%, kappa 0.4.\nCatalog B: accuracy 72%, kappa 0.3.\nRecovered export: accuracy 72%, kappa 0.4.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D046-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 72%, kappa 0.4.\nCatalog B: accuracy 72%, kappa 0.3.\nRecovered export: accuracy 72%, kappa 0.3.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D047-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 76%, kappa 0.4.\nCatalog B: accuracy 76%, kappa 0.5.\nRecovered export: accuracy 76%, kappa 0.4.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D047-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 76%, kappa 0.4.\nCatalog B: accuracy 76%, kappa 0.5.\nRecovered export: accuracy 76%, kappa 0.5.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D048-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 76%, kappa 0.4.\nCatalog B: accuracy 76%, kappa 0.5.\nRecovered export: accuracy 76%, kappa 0.4.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D048-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 76%, kappa 0.4.\nCatalog B: accuracy 76%, kappa 0.5.\nRecovered export: accuracy 76%, kappa 0.5.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D049-1",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 76%, kappa 0.4.\nCatalog B: accuracy 76%, kappa 0.5.\nRecovered export: accuracy 76%, kappa 0.5.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "D049-2",
+      "condition": "positive_control",
+      "user": "Catalog A: accuracy 76%, kappa 0.4.\nCatalog B: accuracy 76%, kappa 0.5.\nRecovered export: accuracy 76%, kappa 0.4.\nWhich catalog entry produced the export? A or B?"
+    }
+  ]
+}

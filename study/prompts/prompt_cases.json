@@ -1,0 +1,1125 @@
+{
+  "system": "You are matching a damaged evaluation record to one of two catalog entries. Use only the fields shown. Select A or B. If both entries match the export equally well, choose your best guess. Reply with just the letter.",
+  "cases": [
+    {
+      "pair": "R001",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 96%, kappa 0.9.\nCatalog B: accuracy 96%, kappa 0.9.\nRecovered export: accuracy 96%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R001",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 96%, kappa 0.9.\nCatalog B: accuracy 96%, kappa 0.9.\nRecovered export: accuracy 96%, kappa 0.9.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R002",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 96%, kappa 0.9.\nCatalog B: accuracy 96%, kappa 0.9.\nRecovered export: accuracy 96%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R002",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 96%, kappa 0.9.\nCatalog B: accuracy 96%, kappa 0.9.\nRecovered export: accuracy 96%, kappa 0.9.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R003",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 96%, kappa 0.9.\nCatalog B: accuracy 96%, kappa 0.9.\nRecovered export: accuracy 96%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R003",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 96%, kappa 0.9.\nCatalog B: accuracy 96%, kappa 0.9.\nRecovered export: accuracy 96%, kappa 0.9.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R004",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 100%, kappa 1.0.\nCatalog B: accuracy 100%, kappa 1.0.\nRecovered export: accuracy 100%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R004",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 100%, kappa 1.0.\nCatalog B: accuracy 100%, kappa 1.0.\nRecovered export: accuracy 100%, kappa 1.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R005",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 99%, kappa 1.0.\nCatalog B: accuracy 99%, kappa 1.0.\nRecovered export: accuracy 99%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R005",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 99%, kappa 1.0.\nCatalog B: accuracy 99%, kappa 1.0.\nRecovered export: accuracy 99%, kappa 1.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R006",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 66%, kappa 0.3.\nCatalog B: accuracy 66%, kappa 0.3.\nRecovered export: accuracy 66%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R006",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 66%, kappa 0.3.\nCatalog B: accuracy 66%, kappa 0.3.\nRecovered export: accuracy 66%, kappa 0.3.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R007",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 90%, kappa 0.8.\nCatalog B: accuracy 90%, kappa 0.8.\nRecovered export: accuracy 90%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R007",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 90%, kappa 0.8.\nCatalog B: accuracy 90%, kappa 0.8.\nRecovered export: accuracy 90%, kappa 0.8.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R008",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 99%, kappa 1.0.\nCatalog B: accuracy 99%, kappa 1.0.\nRecovered export: accuracy 99%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R008",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 99%, kappa 1.0.\nCatalog B: accuracy 99%, kappa 1.0.\nRecovered export: accuracy 99%, kappa 1.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R009",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 97%, kappa 0.9.\nCatalog B: accuracy 97%, kappa 0.9.\nRecovered export: accuracy 97%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R009",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 97%, kappa 0.9.\nCatalog B: accuracy 97%, kappa 0.9.\nRecovered export: accuracy 97%, kappa 0.9.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R010",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 96%, kappa 0.9.\nCatalog B: accuracy 96%, kappa 0.9.\nRecovered export: accuracy 96%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R010",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 96%, kappa 0.9.\nCatalog B: accuracy 96%, kappa 0.9.\nRecovered export: accuracy 96%, kappa 0.9.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R011",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 87%, kappa 0.7.\nCatalog B: accuracy 87%, kappa 0.7.\nRecovered export: accuracy 87%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R011",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 87%, kappa 0.7.\nCatalog B: accuracy 87%, kappa 0.7.\nRecovered export: accuracy 87%, kappa 0.7.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R012",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 96%, kappa 0.9.\nCatalog B: accuracy 96%, kappa 0.9.\nRecovered export: accuracy 96%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R012",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 96%, kappa 0.9.\nCatalog B: accuracy 96%, kappa 0.9.\nRecovered export: accuracy 96%, kappa 0.9.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R013",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 96%, kappa 0.9.\nCatalog B: accuracy 96%, kappa 0.9.\nRecovered export: accuracy 96%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R013",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 96%, kappa 0.9.\nCatalog B: accuracy 96%, kappa 0.9.\nRecovered export: accuracy 96%, kappa 0.9.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R014",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 96%, kappa 0.9.\nCatalog B: accuracy 96%, kappa 0.9.\nRecovered export: accuracy 96%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R014",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 96%, kappa 0.9.\nCatalog B: accuracy 96%, kappa 0.9.\nRecovered export: accuracy 96%, kappa 0.9.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R015",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 92%, kappa 0.8.\nCatalog B: accuracy 92%, kappa 0.8.\nRecovered export: accuracy 92%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R015",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 92%, kappa 0.8.\nCatalog B: accuracy 92%, kappa 0.8.\nRecovered export: accuracy 92%, kappa 0.8.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R016",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 96%, kappa 0.9.\nCatalog B: accuracy 96%, kappa 0.9.\nRecovered export: accuracy 96%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R016",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 96%, kappa 0.9.\nCatalog B: accuracy 96%, kappa 0.9.\nRecovered export: accuracy 96%, kappa 0.9.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R017",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 88%, kappa 0.9.\nCatalog B: accuracy 88%, kappa 0.9.\nRecovered export: accuracy 88%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R017",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 88%, kappa 0.9.\nCatalog B: accuracy 88%, kappa 0.9.\nRecovered export: accuracy 88%, kappa 0.9.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R018",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 95%, kappa 0.9.\nCatalog B: accuracy 95%, kappa 0.9.\nRecovered export: accuracy 95%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R018",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 95%, kappa 0.9.\nCatalog B: accuracy 95%, kappa 0.9.\nRecovered export: accuracy 95%, kappa 0.9.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R019",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 95%, kappa 0.9.\nCatalog B: accuracy 95%, kappa 0.9.\nRecovered export: accuracy 95%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R019",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 95%, kappa 0.9.\nCatalog B: accuracy 95%, kappa 0.9.\nRecovered export: accuracy 95%, kappa 0.9.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R020",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 82%, kappa 0.8.\nCatalog B: accuracy 82%, kappa 0.8.\nRecovered export: accuracy 82%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R020",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 82%, kappa 0.8.\nCatalog B: accuracy 82%, kappa 0.8.\nRecovered export: accuracy 82%, kappa 0.8.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R021",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 82%, kappa 0.8.\nCatalog B: accuracy 82%, kappa 0.8.\nRecovered export: accuracy 82%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R021",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 82%, kappa 0.8.\nCatalog B: accuracy 82%, kappa 0.8.\nRecovered export: accuracy 82%, kappa 0.8.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R022",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 82%, kappa 0.8.\nCatalog B: accuracy 82%, kappa 0.8.\nRecovered export: accuracy 82%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R022",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 82%, kappa 0.8.\nCatalog B: accuracy 82%, kappa 0.8.\nRecovered export: accuracy 82%, kappa 0.8.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R023",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 82%, kappa 0.8.\nCatalog B: accuracy 82%, kappa 0.8.\nRecovered export: accuracy 82%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R023",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 82%, kappa 0.8.\nCatalog B: accuracy 82%, kappa 0.8.\nRecovered export: accuracy 82%, kappa 0.8.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R024",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 94%, kappa 0.9.\nCatalog B: accuracy 94%, kappa 0.9.\nRecovered export: accuracy 94%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R024",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 94%, kappa 0.9.\nCatalog B: accuracy 94%, kappa 0.9.\nRecovered export: accuracy 94%, kappa 0.9.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R025",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 82%, kappa 0.8.\nCatalog B: accuracy 82%, kappa 0.8.\nRecovered export: accuracy 82%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R025",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 82%, kappa 0.8.\nCatalog B: accuracy 82%, kappa 0.8.\nRecovered export: accuracy 82%, kappa 0.8.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R026",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 82%, kappa 0.8.\nCatalog B: accuracy 82%, kappa 0.8.\nRecovered export: accuracy 82%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R026",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 82%, kappa 0.8.\nCatalog B: accuracy 82%, kappa 0.8.\nRecovered export: accuracy 82%, kappa 0.8.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R027",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 91%, kappa 0.9.\nCatalog B: accuracy 91%, kappa 0.9.\nRecovered export: accuracy 91%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R027",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 91%, kappa 0.9.\nCatalog B: accuracy 91%, kappa 0.9.\nRecovered export: accuracy 91%, kappa 0.9.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R028",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 82%, kappa 0.8.\nCatalog B: accuracy 82%, kappa 0.8.\nRecovered export: accuracy 82%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R028",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 82%, kappa 0.8.\nCatalog B: accuracy 82%, kappa 0.8.\nRecovered export: accuracy 82%, kappa 0.8.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R029",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 82%, kappa 0.8.\nCatalog B: accuracy 82%, kappa 0.8.\nRecovered export: accuracy 82%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R029",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 82%, kappa 0.8.\nCatalog B: accuracy 82%, kappa 0.8.\nRecovered export: accuracy 82%, kappa 0.8.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R030",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 51%, kappa 0.5.\nCatalog B: accuracy 51%, kappa 0.5.\nRecovered export: accuracy 51%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R030",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 51%, kappa 0.5.\nCatalog B: accuracy 51%, kappa 0.5.\nRecovered export: accuracy 51%, kappa 0.5.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R031",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 90%, kappa 0.9.\nCatalog B: accuracy 90%, kappa 0.9.\nRecovered export: accuracy 90%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R031",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 90%, kappa 0.9.\nCatalog B: accuracy 90%, kappa 0.9.\nRecovered export: accuracy 90%, kappa 0.9.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R032",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 82%, kappa 0.8.\nCatalog B: accuracy 82%, kappa 0.8.\nRecovered export: accuracy 82%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R032",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 82%, kappa 0.8.\nCatalog B: accuracy 82%, kappa 0.8.\nRecovered export: accuracy 82%, kappa 0.8.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R033",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 98%, kappa 1.0.\nCatalog B: accuracy 98%, kappa 1.0.\nRecovered export: accuracy 98%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R033",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 98%, kappa 1.0.\nCatalog B: accuracy 98%, kappa 1.0.\nRecovered export: accuracy 98%, kappa 1.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R034",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 39%, kappa 0.3.\nCatalog B: accuracy 39%, kappa 0.3.\nRecovered export: accuracy 39%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R034",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 39%, kappa 0.3.\nCatalog B: accuracy 39%, kappa 0.3.\nRecovered export: accuracy 39%, kappa 0.3.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R035",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 98%, kappa 1.0.\nCatalog B: accuracy 98%, kappa 1.0.\nRecovered export: accuracy 98%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R035",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 98%, kappa 1.0.\nCatalog B: accuracy 98%, kappa 1.0.\nRecovered export: accuracy 98%, kappa 1.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R036",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 11%, kappa 0.0.\nCatalog B: accuracy 11%, kappa 0.0.\nRecovered export: accuracy 11%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R036",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 11%, kappa 0.0.\nCatalog B: accuracy 11%, kappa 0.0.\nRecovered export: accuracy 11%, kappa 0.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R037",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 98%, kappa 1.0.\nCatalog B: accuracy 98%, kappa 1.0.\nRecovered export: accuracy 98%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R037",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 98%, kappa 1.0.\nCatalog B: accuracy 98%, kappa 1.0.\nRecovered export: accuracy 98%, kappa 1.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R038",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 98%, kappa 1.0.\nCatalog B: accuracy 98%, kappa 1.0.\nRecovered export: accuracy 98%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R038",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 98%, kappa 1.0.\nCatalog B: accuracy 98%, kappa 1.0.\nRecovered export: accuracy 98%, kappa 1.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R039",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 93%, kappa 0.9.\nCatalog B: accuracy 93%, kappa 0.9.\nRecovered export: accuracy 93%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R039",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 93%, kappa 0.9.\nCatalog B: accuracy 93%, kappa 0.9.\nRecovered export: accuracy 93%, kappa 0.9.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R040",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 98%, kappa 1.0.\nCatalog B: accuracy 98%, kappa 1.0.\nRecovered export: accuracy 98%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R040",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 98%, kappa 1.0.\nCatalog B: accuracy 98%, kappa 1.0.\nRecovered export: accuracy 98%, kappa 1.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R041",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 89%, kappa 0.9.\nCatalog B: accuracy 89%, kappa 0.9.\nRecovered export: accuracy 89%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R041",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 89%, kappa 0.9.\nCatalog B: accuracy 89%, kappa 0.9.\nRecovered export: accuracy 89%, kappa 0.9.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R042",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 98%, kappa 1.0.\nCatalog B: accuracy 98%, kappa 1.0.\nRecovered export: accuracy 98%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R042",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 98%, kappa 1.0.\nCatalog B: accuracy 98%, kappa 1.0.\nRecovered export: accuracy 98%, kappa 1.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R043",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 98%, kappa 1.0.\nCatalog B: accuracy 98%, kappa 1.0.\nRecovered export: accuracy 98%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R043",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 98%, kappa 1.0.\nCatalog B: accuracy 98%, kappa 1.0.\nRecovered export: accuracy 98%, kappa 1.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R044",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 67%, kappa 0.6.\nCatalog B: accuracy 67%, kappa 0.6.\nRecovered export: accuracy 67%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R044",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 67%, kappa 0.6.\nCatalog B: accuracy 67%, kappa 0.6.\nRecovered export: accuracy 67%, kappa 0.6.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R045",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 98%, kappa 1.0.\nCatalog B: accuracy 98%, kappa 1.0.\nRecovered export: accuracy 98%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R045",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 98%, kappa 1.0.\nCatalog B: accuracy 98%, kappa 1.0.\nRecovered export: accuracy 98%, kappa 1.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R046",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 98%, kappa 1.0.\nCatalog B: accuracy 98%, kappa 1.0.\nRecovered export: accuracy 98%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R046",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 98%, kappa 1.0.\nCatalog B: accuracy 98%, kappa 1.0.\nRecovered export: accuracy 98%, kappa 1.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R047",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 96%, kappa 1.0.\nCatalog B: accuracy 96%, kappa 1.0.\nRecovered export: accuracy 96%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R047",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 96%, kappa 1.0.\nCatalog B: accuracy 96%, kappa 1.0.\nRecovered export: accuracy 96%, kappa 1.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R048",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 98%, kappa 1.0.\nCatalog B: accuracy 98%, kappa 1.0.\nRecovered export: accuracy 98%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R048",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 98%, kappa 1.0.\nCatalog B: accuracy 98%, kappa 1.0.\nRecovered export: accuracy 98%, kappa 1.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R049",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 49%, kappa 0.2.\nCatalog B: accuracy 49%, kappa 0.2.\nRecovered export: accuracy 49%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R049",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 49%, kappa 0.2.\nCatalog B: accuracy 49%, kappa 0.2.\nRecovered export: accuracy 49%, kappa 0.2.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R050",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 49%, kappa 0.2.\nCatalog B: accuracy 49%, kappa 0.2.\nRecovered export: accuracy 49%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R050",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 49%, kappa 0.2.\nCatalog B: accuracy 49%, kappa 0.2.\nRecovered export: accuracy 49%, kappa 0.2.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R051",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 49%, kappa 0.2.\nCatalog B: accuracy 49%, kappa 0.2.\nRecovered export: accuracy 49%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R051",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 49%, kappa 0.2.\nCatalog B: accuracy 49%, kappa 0.2.\nRecovered export: accuracy 49%, kappa 0.2.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R052",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 52%, kappa 0.3.\nCatalog B: accuracy 52%, kappa 0.3.\nRecovered export: accuracy 52%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R052",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 52%, kappa 0.3.\nCatalog B: accuracy 52%, kappa 0.3.\nRecovered export: accuracy 52%, kappa 0.3.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R053",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 54%, kappa 0.3.\nCatalog B: accuracy 54%, kappa 0.3.\nRecovered export: accuracy 54%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R053",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 54%, kappa 0.3.\nCatalog B: accuracy 54%, kappa 0.3.\nRecovered export: accuracy 54%, kappa 0.3.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R054",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 53%, kappa 0.3.\nCatalog B: accuracy 53%, kappa 0.3.\nRecovered export: accuracy 53%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R054",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 53%, kappa 0.3.\nCatalog B: accuracy 53%, kappa 0.3.\nRecovered export: accuracy 53%, kappa 0.3.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R055",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 54%, kappa 0.3.\nCatalog B: accuracy 54%, kappa 0.3.\nRecovered export: accuracy 54%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R055",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 54%, kappa 0.3.\nCatalog B: accuracy 54%, kappa 0.3.\nRecovered export: accuracy 54%, kappa 0.3.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R056",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 49%, kappa 0.2.\nCatalog B: accuracy 49%, kappa 0.2.\nRecovered export: accuracy 49%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R056",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 49%, kappa 0.2.\nCatalog B: accuracy 49%, kappa 0.2.\nRecovered export: accuracy 49%, kappa 0.2.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R057",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 54%, kappa 0.3.\nCatalog B: accuracy 54%, kappa 0.3.\nRecovered export: accuracy 54%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R057",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 54%, kappa 0.3.\nCatalog B: accuracy 54%, kappa 0.3.\nRecovered export: accuracy 54%, kappa 0.3.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R058",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 49%, kappa 0.2.\nCatalog B: accuracy 49%, kappa 0.2.\nRecovered export: accuracy 49%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R058",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 49%, kappa 0.2.\nCatalog B: accuracy 49%, kappa 0.2.\nRecovered export: accuracy 49%, kappa 0.2.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R059",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 49%, kappa 0.2.\nCatalog B: accuracy 49%, kappa 0.2.\nRecovered export: accuracy 49%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R059",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 49%, kappa 0.2.\nCatalog B: accuracy 49%, kappa 0.2.\nRecovered export: accuracy 49%, kappa 0.2.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R060",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 49%, kappa 0.2.\nCatalog B: accuracy 49%, kappa 0.2.\nRecovered export: accuracy 49%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R060",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 49%, kappa 0.2.\nCatalog B: accuracy 49%, kappa 0.2.\nRecovered export: accuracy 49%, kappa 0.2.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R061",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 53%, kappa 0.3.\nCatalog B: accuracy 53%, kappa 0.3.\nRecovered export: accuracy 53%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R061",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 53%, kappa 0.3.\nCatalog B: accuracy 53%, kappa 0.3.\nRecovered export: accuracy 53%, kappa 0.3.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R062",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 54%, kappa 0.3.\nCatalog B: accuracy 54%, kappa 0.3.\nRecovered export: accuracy 54%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R062",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 54%, kappa 0.3.\nCatalog B: accuracy 54%, kappa 0.3.\nRecovered export: accuracy 54%, kappa 0.3.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R063",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 49%, kappa 0.2.\nCatalog B: accuracy 49%, kappa 0.2.\nRecovered export: accuracy 49%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R063",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 49%, kappa 0.2.\nCatalog B: accuracy 49%, kappa 0.2.\nRecovered export: accuracy 49%, kappa 0.2.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R064",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 54%, kappa 0.3.\nCatalog B: accuracy 54%, kappa 0.3.\nRecovered export: accuracy 54%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R064",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 54%, kappa 0.3.\nCatalog B: accuracy 54%, kappa 0.3.\nRecovered export: accuracy 54%, kappa 0.3.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R065",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 92%, kappa 0.9.\nCatalog B: accuracy 92%, kappa 0.9.\nRecovered export: accuracy 92%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R065",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 92%, kappa 0.9.\nCatalog B: accuracy 92%, kappa 0.9.\nRecovered export: accuracy 92%, kappa 0.9.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R066",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 97%, kappa 1.0.\nCatalog B: accuracy 97%, kappa 1.0.\nRecovered export: accuracy 97%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R066",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 97%, kappa 1.0.\nCatalog B: accuracy 97%, kappa 1.0.\nRecovered export: accuracy 97%, kappa 1.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R067",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 99%, kappa 1.0.\nCatalog B: accuracy 99%, kappa 1.0.\nRecovered export: accuracy 99%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R067",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 99%, kappa 1.0.\nCatalog B: accuracy 99%, kappa 1.0.\nRecovered export: accuracy 99%, kappa 1.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R068",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 98%, kappa 1.0.\nCatalog B: accuracy 98%, kappa 1.0.\nRecovered export: accuracy 98%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R068",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 98%, kappa 1.0.\nCatalog B: accuracy 98%, kappa 1.0.\nRecovered export: accuracy 98%, kappa 1.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R069",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 93%, kappa 0.9.\nCatalog B: accuracy 93%, kappa 0.9.\nRecovered export: accuracy 93%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R069",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 93%, kappa 0.9.\nCatalog B: accuracy 93%, kappa 0.9.\nRecovered export: accuracy 93%, kappa 0.9.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R070",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 98%, kappa 1.0.\nCatalog B: accuracy 98%, kappa 1.0.\nRecovered export: accuracy 98%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R070",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 98%, kappa 1.0.\nCatalog B: accuracy 98%, kappa 1.0.\nRecovered export: accuracy 98%, kappa 1.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R071",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 98%, kappa 1.0.\nCatalog B: accuracy 98%, kappa 1.0.\nRecovered export: accuracy 98%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R071",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 98%, kappa 1.0.\nCatalog B: accuracy 98%, kappa 1.0.\nRecovered export: accuracy 98%, kappa 1.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R072",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 61%, kappa 0.6.\nCatalog B: accuracy 61%, kappa 0.6.\nRecovered export: accuracy 61%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R072",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 61%, kappa 0.6.\nCatalog B: accuracy 61%, kappa 0.6.\nRecovered export: accuracy 61%, kappa 0.6.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R073",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 98%, kappa 1.0.\nCatalog B: accuracy 98%, kappa 1.0.\nRecovered export: accuracy 98%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R073",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 98%, kappa 1.0.\nCatalog B: accuracy 98%, kappa 1.0.\nRecovered export: accuracy 98%, kappa 1.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R074",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 98%, kappa 1.0.\nCatalog B: accuracy 98%, kappa 1.0.\nRecovered export: accuracy 98%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R074",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 98%, kappa 1.0.\nCatalog B: accuracy 98%, kappa 1.0.\nRecovered export: accuracy 98%, kappa 1.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R075",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 94%, kappa 0.9.\nCatalog B: accuracy 94%, kappa 0.9.\nRecovered export: accuracy 94%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R075",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 94%, kappa 0.9.\nCatalog B: accuracy 94%, kappa 0.9.\nRecovered export: accuracy 94%, kappa 0.9.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R076",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 98%, kappa 1.0.\nCatalog B: accuracy 98%, kappa 1.0.\nRecovered export: accuracy 98%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R076",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 98%, kappa 1.0.\nCatalog B: accuracy 98%, kappa 1.0.\nRecovered export: accuracy 98%, kappa 1.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R077",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 98%, kappa 1.0.\nCatalog B: accuracy 98%, kappa 1.0.\nRecovered export: accuracy 98%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R077",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 98%, kappa 1.0.\nCatalog B: accuracy 98%, kappa 1.0.\nRecovered export: accuracy 98%, kappa 1.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R078",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 98%, kappa 1.0.\nCatalog B: accuracy 98%, kappa 1.0.\nRecovered export: accuracy 98%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R078",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 98%, kappa 1.0.\nCatalog B: accuracy 98%, kappa 1.0.\nRecovered export: accuracy 98%, kappa 1.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R079",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 98%, kappa 1.0.\nCatalog B: accuracy 98%, kappa 1.0.\nRecovered export: accuracy 98%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R079",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 98%, kappa 1.0.\nCatalog B: accuracy 98%, kappa 1.0.\nRecovered export: accuracy 98%, kappa 1.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R080",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 98%, kappa 1.0.\nCatalog B: accuracy 98%, kappa 1.0.\nRecovered export: accuracy 98%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R080",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 98%, kappa 1.0.\nCatalog B: accuracy 98%, kappa 1.0.\nRecovered export: accuracy 98%, kappa 1.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R081",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 74%, kappa 0.3.\nCatalog B: accuracy 74%, kappa 0.3.\nRecovered export: accuracy 74%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R081",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 74%, kappa 0.3.\nCatalog B: accuracy 74%, kappa 0.3.\nRecovered export: accuracy 74%, kappa 0.3.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R082",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 75%, kappa 0.4.\nCatalog B: accuracy 75%, kappa 0.4.\nRecovered export: accuracy 75%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R082",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 75%, kappa 0.4.\nCatalog B: accuracy 75%, kappa 0.4.\nRecovered export: accuracy 75%, kappa 0.4.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R083",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 70%, kappa 0.3.\nCatalog B: accuracy 70%, kappa 0.0.\nRecovered export: accuracy 70%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R083",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 70%, kappa 0.3.\nCatalog B: accuracy 70%, kappa 0.0.\nRecovered export: accuracy 70%, kappa 0.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R084",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 73%, kappa 0.3.\nCatalog B: accuracy 73%, kappa 0.3.\nRecovered export: accuracy 73%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R084",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 73%, kappa 0.3.\nCatalog B: accuracy 73%, kappa 0.3.\nRecovered export: accuracy 73%, kappa 0.3.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R085",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 73%, kappa 0.3.\nCatalog B: accuracy 73%, kappa 0.3.\nRecovered export: accuracy 73%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R085",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 73%, kappa 0.3.\nCatalog B: accuracy 73%, kappa 0.3.\nRecovered export: accuracy 73%, kappa 0.3.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R086",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 75%, kappa 0.4.\nCatalog B: accuracy 75%, kappa 0.4.\nRecovered export: accuracy 75%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R086",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 75%, kappa 0.4.\nCatalog B: accuracy 75%, kappa 0.4.\nRecovered export: accuracy 75%, kappa 0.4.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R087",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 66%, kappa 0.1.\nCatalog B: accuracy 66%, kappa 0.1.\nRecovered export: accuracy 66%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R087",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 66%, kappa 0.1.\nCatalog B: accuracy 66%, kappa 0.1.\nRecovered export: accuracy 66%, kappa 0.1.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R088",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 75%, kappa 0.4.\nCatalog B: accuracy 75%, kappa 0.4.\nRecovered export: accuracy 75%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R088",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 75%, kappa 0.4.\nCatalog B: accuracy 75%, kappa 0.4.\nRecovered export: accuracy 75%, kappa 0.4.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R089",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 70%, kappa 0.0.\nCatalog B: accuracy 70%, kappa 0.0.\nRecovered export: accuracy 70%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R089",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 70%, kappa 0.0.\nCatalog B: accuracy 70%, kappa 0.0.\nRecovered export: accuracy 70%, kappa 0.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R090",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 70%, kappa 0.2.\nCatalog B: accuracy 70%, kappa 0.3.\nRecovered export: accuracy 70%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R090",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 70%, kappa 0.2.\nCatalog B: accuracy 70%, kappa 0.3.\nRecovered export: accuracy 70%, kappa 0.2.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R091",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 74%, kappa 0.3.\nCatalog B: accuracy 74%, kappa 0.3.\nRecovered export: accuracy 74%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R091",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 74%, kappa 0.3.\nCatalog B: accuracy 74%, kappa 0.3.\nRecovered export: accuracy 74%, kappa 0.3.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R092",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 75%, kappa 0.4.\nCatalog B: accuracy 75%, kappa 0.4.\nRecovered export: accuracy 75%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R092",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 75%, kappa 0.4.\nCatalog B: accuracy 75%, kappa 0.4.\nRecovered export: accuracy 75%, kappa 0.4.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R093",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 75%, kappa 0.4.\nCatalog B: accuracy 75%, kappa 0.4.\nRecovered export: accuracy 75%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R093",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 75%, kappa 0.4.\nCatalog B: accuracy 75%, kappa 0.4.\nRecovered export: accuracy 75%, kappa 0.4.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R094",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 75%, kappa 0.4.\nCatalog B: accuracy 75%, kappa 0.4.\nRecovered export: accuracy 75%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R094",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 75%, kappa 0.4.\nCatalog B: accuracy 75%, kappa 0.4.\nRecovered export: accuracy 75%, kappa 0.4.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R095",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 74%, kappa 0.3.\nCatalog B: accuracy 74%, kappa 0.4.\nRecovered export: accuracy 74%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R095",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 74%, kappa 0.3.\nCatalog B: accuracy 74%, kappa 0.4.\nRecovered export: accuracy 74%, kappa 0.4.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R096",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 70%, kappa 0.0.\nCatalog B: accuracy 70%, kappa 0.0.\nRecovered export: accuracy 70%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R096",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 70%, kappa 0.0.\nCatalog B: accuracy 70%, kappa 0.0.\nRecovered export: accuracy 70%, kappa 0.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R097",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 74%, kappa 0.4.\nCatalog B: accuracy 74%, kappa 0.4.\nRecovered export: accuracy 74%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R097",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 74%, kappa 0.4.\nCatalog B: accuracy 74%, kappa 0.4.\nRecovered export: accuracy 74%, kappa 0.4.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R098",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 77%, kappa 0.5.\nCatalog B: accuracy 77%, kappa 0.5.\nRecovered export: accuracy 77%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R098",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 77%, kappa 0.5.\nCatalog B: accuracy 77%, kappa 0.5.\nRecovered export: accuracy 77%, kappa 0.5.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R099",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 74%, kappa 0.4.\nCatalog B: accuracy 74%, kappa 0.4.\nRecovered export: accuracy 74%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R099",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 74%, kappa 0.4.\nCatalog B: accuracy 74%, kappa 0.4.\nRecovered export: accuracy 74%, kappa 0.4.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R100",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 71%, kappa 0.3.\nCatalog B: accuracy 71%, kappa 0.3.\nRecovered export: accuracy 71%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R100",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 71%, kappa 0.3.\nCatalog B: accuracy 71%, kappa 0.3.\nRecovered export: accuracy 71%, kappa 0.3.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R101",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 75%, kappa 0.4.\nCatalog B: accuracy 75%, kappa 0.4.\nRecovered export: accuracy 75%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R101",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 75%, kappa 0.4.\nCatalog B: accuracy 75%, kappa 0.4.\nRecovered export: accuracy 75%, kappa 0.4.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R102",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 76%, kappa 0.5.\nCatalog B: accuracy 76%, kappa 0.4.\nRecovered export: accuracy 76%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R102",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 76%, kappa 0.5.\nCatalog B: accuracy 76%, kappa 0.4.\nRecovered export: accuracy 76%, kappa 0.4.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R103",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 77%, kappa 0.5.\nCatalog B: accuracy 77%, kappa 0.5.\nRecovered export: accuracy 77%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R103",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 77%, kappa 0.5.\nCatalog B: accuracy 77%, kappa 0.5.\nRecovered export: accuracy 77%, kappa 0.5.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R104",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 74%, kappa 0.4.\nCatalog B: accuracy 74%, kappa 0.4.\nRecovered export: accuracy 74%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R104",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 74%, kappa 0.4.\nCatalog B: accuracy 74%, kappa 0.4.\nRecovered export: accuracy 74%, kappa 0.4.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R105",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 77%, kappa 0.5.\nCatalog B: accuracy 77%, kappa 0.5.\nRecovered export: accuracy 77%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R105",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 77%, kappa 0.5.\nCatalog B: accuracy 77%, kappa 0.5.\nRecovered export: accuracy 77%, kappa 0.5.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R106",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 74%, kappa 0.4.\nCatalog B: accuracy 74%, kappa 0.4.\nRecovered export: accuracy 74%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R106",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 74%, kappa 0.4.\nCatalog B: accuracy 74%, kappa 0.4.\nRecovered export: accuracy 74%, kappa 0.4.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R107",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 77%, kappa 0.5.\nCatalog B: accuracy 77%, kappa 0.5.\nRecovered export: accuracy 77%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R107",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 77%, kappa 0.5.\nCatalog B: accuracy 77%, kappa 0.5.\nRecovered export: accuracy 77%, kappa 0.5.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R108",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 76%, kappa 0.5.\nCatalog B: accuracy 76%, kappa 0.5.\nRecovered export: accuracy 76%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R108",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 76%, kappa 0.5.\nCatalog B: accuracy 76%, kappa 0.5.\nRecovered export: accuracy 76%, kappa 0.5.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R109",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 65%, kappa 0.0.\nCatalog B: accuracy 65%, kappa 0.0.\nRecovered export: accuracy 65%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R109",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 65%, kappa 0.0.\nCatalog B: accuracy 65%, kappa 0.0.\nRecovered export: accuracy 65%, kappa 0.0.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R110",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 77%, kappa 0.5.\nCatalog B: accuracy 77%, kappa 0.5.\nRecovered export: accuracy 77%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R110",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 77%, kappa 0.5.\nCatalog B: accuracy 77%, kappa 0.5.\nRecovered export: accuracy 77%, kappa 0.5.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R111",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 77%, kappa 0.5.\nCatalog B: accuracy 77%, kappa 0.5.\nRecovered export: accuracy 77%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R111",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 77%, kappa 0.5.\nCatalog B: accuracy 77%, kappa 0.5.\nRecovered export: accuracy 77%, kappa 0.5.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R112",
+      "condition": "accuracy",
+      "user": "Catalog A: accuracy 77%, kappa 0.5.\nCatalog B: accuracy 77%, kappa 0.5.\nRecovered export: accuracy 77%, kappa not recorded.\nWhich catalog entry produced the export? A or B?"
+    },
+    {
+      "pair": "R112",
+      "condition": "accuracy_kappa",
+      "user": "Catalog A: accuracy 77%, kappa 0.5.\nCatalog B: accuracy 77%, kappa 0.5.\nRecovered export: accuracy 77%, kappa 0.5.\nWhich catalog entry produced the export? A or B?"
+    }
+  ]
+}

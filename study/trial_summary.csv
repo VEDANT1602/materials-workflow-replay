@@ -1,0 +1,11 @@
+method,condition,n,correct,macro_accuracy,macro_mae,selected_A,separated,loto_low,loto_high
+Qwen2.5-0.5B-Instruct,accuracy,112,56.0,0.5,0.008582794642857144,112.0,0,0.5,0.5
+Qwen2.5-0.5B-Instruct,accuracy_kappa,112,56.0,0.5,0.008582794642857144,112.0,4,0.5,0.5
+SmolLM2-135M-Instruct,accuracy,112,56.0,0.5,0.008582794642857144,112.0,0,0.5,0.5
+SmolLM2-135M-Instruct,accuracy_kappa,112,56.0,0.5,0.008582794642857144,112.0,4,0.5,0.5
+Always A,accuracy,112,56.0,0.5,0.008582794642857144,112.0,0,0.5,0.5
+Always A,accuracy_kappa,112,56.0,0.5,0.008582794642857144,112.0,4,0.5,0.5
+First compatible,accuracy,112,56.0,0.5,0.008582794642857144,112.0,0,0.5,0.5
+First compatible,accuracy_kappa,112,59.0,0.5267857142857143,0.006497874999999999,109.0,4,0.5104166666666666,0.53125
+Uniform random,accuracy,112,56.0,0.5,0.007111848441248002,56.0,0,0.5,0.5
+Uniform random,accuracy_kappa,112,56.0,0.5,0.007111848441248002,56.0,4,0.5,0.5

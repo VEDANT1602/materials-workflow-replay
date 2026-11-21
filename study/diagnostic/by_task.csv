@@ -1,0 +1,17 @@
+method,task,prompts,correct,selected_A
+First compatible,6,2,2,1
+First compatible,23,32,32,16
+First compatible,31,32,32,16
+First compatible,37,32,32,16
+Always A,6,2,1,2
+Always A,23,32,16,32
+Always A,31,32,16,32
+Always A,37,32,16,32
+Qwen2.5-0.5B-Instruct,6,2,1,2
+Qwen2.5-0.5B-Instruct,23,32,19,29
+Qwen2.5-0.5B-Instruct,31,32,22,26
+Qwen2.5-0.5B-Instruct,37,32,17,31
+SmolLM2-135M-Instruct,6,2,1,2
+SmolLM2-135M-Instruct,23,32,16,32
+SmolLM2-135M-Instruct,31,32,16,32
+SmolLM2-135M-Instruct,37,32,16,32

@@ -1,0 +1,1121 @@
+pair,task,condition,method,target,prob_A,correct,absolute_auc_error,distinguishable
+R001,3,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R002,3,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R003,3,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R004,3,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R005,3,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0016169999999999796,False
+R006,3,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R007,3,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R008,3,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R009,3,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R010,3,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.030622000000000038,False
+R011,3,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,6.499999999998174e-05,False
+R012,3,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R013,3,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R014,3,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R015,3,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R016,3,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R001,3,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R002,3,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R003,3,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R004,3,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R005,3,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.0016169999999999796,False
+R006,3,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R007,3,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R008,3,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R009,3,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R010,3,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.030622000000000038,False
+R011,3,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,6.499999999998174e-05,False
+R012,3,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R013,3,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R014,3,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R015,3,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R016,3,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R001,3,accuracy,Always A,B,1.0,0.0,0.0,False
+R002,3,accuracy,Always A,A,1.0,1.0,0.0,False
+R003,3,accuracy,Always A,B,1.0,0.0,0.0,False
+R004,3,accuracy,Always A,A,1.0,1.0,0.0,False
+R005,3,accuracy,Always A,B,1.0,0.0,0.0016169999999999796,False
+R006,3,accuracy,Always A,A,1.0,1.0,0.0,False
+R007,3,accuracy,Always A,A,1.0,1.0,0.0,False
+R008,3,accuracy,Always A,A,1.0,1.0,0.0,False
+R009,3,accuracy,Always A,A,1.0,1.0,0.0,False
+R010,3,accuracy,Always A,B,1.0,0.0,0.030622000000000038,False
+R011,3,accuracy,Always A,B,1.0,0.0,6.499999999998174e-05,False
+R012,3,accuracy,Always A,B,1.0,0.0,0.0,False
+R013,3,accuracy,Always A,B,1.0,0.0,0.0,False
+R014,3,accuracy,Always A,A,1.0,1.0,0.0,False
+R015,3,accuracy,Always A,B,1.0,0.0,0.0,False
+R016,3,accuracy,Always A,A,1.0,1.0,0.0,False
+R001,3,accuracy,First compatible,B,1.0,0.0,0.0,False
+R002,3,accuracy,First compatible,A,1.0,1.0,0.0,False
+R003,3,accuracy,First compatible,B,1.0,0.0,0.0,False
+R004,3,accuracy,First compatible,A,1.0,1.0,0.0,False
+R005,3,accuracy,First compatible,B,1.0,0.0,0.0016169999999999796,False
+R006,3,accuracy,First compatible,A,1.0,1.0,0.0,False
+R007,3,accuracy,First compatible,A,1.0,1.0,0.0,False
+R008,3,accuracy,First compatible,A,1.0,1.0,0.0,False
+R009,3,accuracy,First compatible,A,1.0,1.0,0.0,False
+R010,3,accuracy,First compatible,B,1.0,0.0,0.030622000000000038,False
+R011,3,accuracy,First compatible,B,1.0,0.0,6.499999999998174e-05,False
+R012,3,accuracy,First compatible,B,1.0,0.0,0.0,False
+R013,3,accuracy,First compatible,B,1.0,0.0,0.0,False
+R014,3,accuracy,First compatible,A,1.0,1.0,0.0,False
+R015,3,accuracy,First compatible,B,1.0,0.0,0.0,False
+R016,3,accuracy,First compatible,A,1.0,1.0,0.0,False
+R001,3,accuracy,Uniform random,B,0.5,0.5,0.0,False
+R002,3,accuracy,Uniform random,A,0.5,0.5,0.0,False
+R003,3,accuracy,Uniform random,B,0.5,0.5,0.0,False
+R004,3,accuracy,Uniform random,A,0.5,0.5,0.0010249999999999981,False
+R005,3,accuracy,Uniform random,B,0.5,0.5,0.0008084999999999898,False
+R006,3,accuracy,Uniform random,A,0.5,0.5,0.06341799999999997,False
+R007,3,accuracy,Uniform random,A,0.5,0.5,0.03084950000000003,False
+R008,3,accuracy,Uniform random,A,0.5,0.5,0.0004089999999999927,False
+R009,3,accuracy,Uniform random,A,0.5,0.5,0.0,False
+R010,3,accuracy,Uniform random,B,0.5,0.5,0.015311000000000019,False
+R011,3,accuracy,Uniform random,B,0.5,0.5,3.249999999999087e-05,False
+R012,3,accuracy,Uniform random,B,0.5,0.5,0.0,False
+R013,3,accuracy,Uniform random,B,0.5,0.5,0.0,False
+R014,3,accuracy,Uniform random,A,0.5,0.5,0.0,False
+R015,3,accuracy,Uniform random,B,0.5,0.5,0.0,False
+R016,3,accuracy,Uniform random,A,0.5,0.5,0.0,False
+R001,3,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R002,3,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R003,3,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R004,3,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R005,3,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0016169999999999796,False
+R006,3,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R007,3,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R008,3,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R009,3,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R010,3,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.030622000000000038,False
+R011,3,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,6.499999999998174e-05,False
+R012,3,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R013,3,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R014,3,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R015,3,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R016,3,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R001,3,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R002,3,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R003,3,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R004,3,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R005,3,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.0016169999999999796,False
+R006,3,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R007,3,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R008,3,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R009,3,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R010,3,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.030622000000000038,False
+R011,3,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,6.499999999998174e-05,False
+R012,3,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R013,3,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R014,3,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R015,3,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R016,3,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R001,3,accuracy_kappa,Always A,B,1.0,0.0,0.0,False
+R002,3,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R003,3,accuracy_kappa,Always A,B,1.0,0.0,0.0,False
+R004,3,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R005,3,accuracy_kappa,Always A,B,1.0,0.0,0.0016169999999999796,False
+R006,3,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R007,3,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R008,3,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R009,3,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R010,3,accuracy_kappa,Always A,B,1.0,0.0,0.030622000000000038,False
+R011,3,accuracy_kappa,Always A,B,1.0,0.0,6.499999999998174e-05,False
+R012,3,accuracy_kappa,Always A,B,1.0,0.0,0.0,False
+R013,3,accuracy_kappa,Always A,B,1.0,0.0,0.0,False
+R014,3,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R015,3,accuracy_kappa,Always A,B,1.0,0.0,0.0,False
+R016,3,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R001,3,accuracy_kappa,First compatible,B,1.0,0.0,0.0,False
+R002,3,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R003,3,accuracy_kappa,First compatible,B,1.0,0.0,0.0,False
+R004,3,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R005,3,accuracy_kappa,First compatible,B,1.0,0.0,0.0016169999999999796,False
+R006,3,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R007,3,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R008,3,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R009,3,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R010,3,accuracy_kappa,First compatible,B,1.0,0.0,0.030622000000000038,False
+R011,3,accuracy_kappa,First compatible,B,1.0,0.0,6.499999999998174e-05,False
+R012,3,accuracy_kappa,First compatible,B,1.0,0.0,0.0,False
+R013,3,accuracy_kappa,First compatible,B,1.0,0.0,0.0,False
+R014,3,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R015,3,accuracy_kappa,First compatible,B,1.0,0.0,0.0,False
+R016,3,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R001,3,accuracy_kappa,Uniform random,B,0.5,0.5,0.0,False
+R002,3,accuracy_kappa,Uniform random,A,0.5,0.5,0.0,False
+R003,3,accuracy_kappa,Uniform random,B,0.5,0.5,0.0,False
+R004,3,accuracy_kappa,Uniform random,A,0.5,0.5,0.0010249999999999981,False
+R005,3,accuracy_kappa,Uniform random,B,0.5,0.5,0.0008084999999999898,False
+R006,3,accuracy_kappa,Uniform random,A,0.5,0.5,0.06341799999999997,False
+R007,3,accuracy_kappa,Uniform random,A,0.5,0.5,0.03084950000000003,False
+R008,3,accuracy_kappa,Uniform random,A,0.5,0.5,0.0004089999999999927,False
+R009,3,accuracy_kappa,Uniform random,A,0.5,0.5,0.0,False
+R010,3,accuracy_kappa,Uniform random,B,0.5,0.5,0.015311000000000019,False
+R011,3,accuracy_kappa,Uniform random,B,0.5,0.5,3.249999999999087e-05,False
+R012,3,accuracy_kappa,Uniform random,B,0.5,0.5,0.0,False
+R013,3,accuracy_kappa,Uniform random,B,0.5,0.5,0.0,False
+R014,3,accuracy_kappa,Uniform random,A,0.5,0.5,0.0,False
+R015,3,accuracy_kappa,Uniform random,B,0.5,0.5,0.0,False
+R016,3,accuracy_kappa,Uniform random,A,0.5,0.5,0.0,False
+R017,6,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R018,6,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.003049999999999997,False
+R019,6,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R020,6,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R021,6,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R022,6,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R023,6,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R024,6,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.004074000000000022,False
+R025,6,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R026,6,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R027,6,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R028,6,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R029,6,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R030,6,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.025088,False
+R031,6,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.001627000000000045,False
+R032,6,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R017,6,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R018,6,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.003049999999999997,False
+R019,6,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R020,6,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R021,6,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R022,6,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R023,6,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R024,6,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.004074000000000022,False
+R025,6,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R026,6,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R027,6,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R028,6,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R029,6,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R030,6,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.025088,False
+R031,6,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.001627000000000045,False
+R032,6,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R017,6,accuracy,Always A,A,1.0,1.0,0.0,False
+R018,6,accuracy,Always A,B,1.0,0.0,0.003049999999999997,False
+R019,6,accuracy,Always A,A,1.0,1.0,0.0,False
+R020,6,accuracy,Always A,A,1.0,1.0,0.0,False
+R021,6,accuracy,Always A,B,1.0,0.0,0.0,False
+R022,6,accuracy,Always A,A,1.0,1.0,0.0,False
+R023,6,accuracy,Always A,A,1.0,1.0,0.0,False
+R024,6,accuracy,Always A,B,1.0,0.0,0.004074000000000022,False
+R025,6,accuracy,Always A,B,1.0,0.0,0.0,False
+R026,6,accuracy,Always A,B,1.0,0.0,0.0,False
+R027,6,accuracy,Always A,A,1.0,1.0,0.0,False
+R028,6,accuracy,Always A,B,1.0,0.0,0.0,False
+R029,6,accuracy,Always A,A,1.0,1.0,0.0,False
+R030,6,accuracy,Always A,B,1.0,0.0,0.025088,False
+R031,6,accuracy,Always A,B,1.0,0.0,0.001627000000000045,False
+R032,6,accuracy,Always A,A,1.0,1.0,0.0,False
+R017,6,accuracy,First compatible,A,1.0,1.0,0.0,False
+R018,6,accuracy,First compatible,B,1.0,0.0,0.003049999999999997,False
+R019,6,accuracy,First compatible,A,1.0,1.0,0.0,False
+R020,6,accuracy,First compatible,A,1.0,1.0,0.0,False
+R021,6,accuracy,First compatible,B,1.0,0.0,0.0,False
+R022,6,accuracy,First compatible,A,1.0,1.0,0.0,False
+R023,6,accuracy,First compatible,A,1.0,1.0,0.0,False
+R024,6,accuracy,First compatible,B,1.0,0.0,0.004074000000000022,False
+R025,6,accuracy,First compatible,B,1.0,0.0,0.0,False
+R026,6,accuracy,First compatible,B,1.0,0.0,0.0,False
+R027,6,accuracy,First compatible,A,1.0,1.0,0.0,False
+R028,6,accuracy,First compatible,B,1.0,0.0,0.0,False
+R029,6,accuracy,First compatible,A,1.0,1.0,0.0,False
+R030,6,accuracy,First compatible,B,1.0,0.0,0.025088,False
+R031,6,accuracy,First compatible,B,1.0,0.0,0.001627000000000045,False
+R032,6,accuracy,First compatible,A,1.0,1.0,0.0,False
+R017,6,accuracy,Uniform random,A,0.5,0.5,0.023223999999999967,False
+R018,6,accuracy,Uniform random,B,0.5,0.5,0.0015249999999999986,False
+R019,6,accuracy,Uniform random,A,0.5,0.5,0.0005850000000000022,False
+R020,6,accuracy,Uniform random,A,0.5,0.5,0.0,False
+R021,6,accuracy,Uniform random,B,0.5,0.5,0.0,False
+R022,6,accuracy,Uniform random,A,0.5,0.5,0.0,False
+R023,6,accuracy,Uniform random,A,0.5,0.5,0.0,False
+R024,6,accuracy,Uniform random,B,0.5,0.5,0.002037000000000011,False
+R025,6,accuracy,Uniform random,B,0.5,0.5,0.0,False
+R026,6,accuracy,Uniform random,B,0.5,0.5,0.0,False
+R027,6,accuracy,Uniform random,A,0.5,0.5,0.008054000000000006,False
+R028,6,accuracy,Uniform random,B,0.5,0.5,0.0,False
+R029,6,accuracy,Uniform random,A,0.5,0.5,0.0,False
+R030,6,accuracy,Uniform random,B,0.5,0.5,0.012544,False
+R031,6,accuracy,Uniform random,B,0.5,0.5,0.0008135000000000225,False
+R032,6,accuracy,Uniform random,A,0.5,0.5,0.0,False
+R017,6,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R018,6,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.003049999999999997,False
+R019,6,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R020,6,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R021,6,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R022,6,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R023,6,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R024,6,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.004074000000000022,False
+R025,6,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R026,6,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R027,6,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R028,6,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R029,6,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R030,6,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.025088,False
+R031,6,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.001627000000000045,False
+R032,6,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R017,6,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R018,6,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.003049999999999997,False
+R019,6,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R020,6,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R021,6,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R022,6,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R023,6,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R024,6,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.004074000000000022,False
+R025,6,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R026,6,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R027,6,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R028,6,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R029,6,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R030,6,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.025088,False
+R031,6,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.001627000000000045,False
+R032,6,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R017,6,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R018,6,accuracy_kappa,Always A,B,1.0,0.0,0.003049999999999997,False
+R019,6,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R020,6,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R021,6,accuracy_kappa,Always A,B,1.0,0.0,0.0,False
+R022,6,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R023,6,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R024,6,accuracy_kappa,Always A,B,1.0,0.0,0.004074000000000022,False
+R025,6,accuracy_kappa,Always A,B,1.0,0.0,0.0,False
+R026,6,accuracy_kappa,Always A,B,1.0,0.0,0.0,False
+R027,6,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R028,6,accuracy_kappa,Always A,B,1.0,0.0,0.0,False
+R029,6,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R030,6,accuracy_kappa,Always A,B,1.0,0.0,0.025088,False
+R031,6,accuracy_kappa,Always A,B,1.0,0.0,0.001627000000000045,False
+R032,6,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R017,6,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R018,6,accuracy_kappa,First compatible,B,1.0,0.0,0.003049999999999997,False
+R019,6,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R020,6,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R021,6,accuracy_kappa,First compatible,B,1.0,0.0,0.0,False
+R022,6,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R023,6,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R024,6,accuracy_kappa,First compatible,B,1.0,0.0,0.004074000000000022,False
+R025,6,accuracy_kappa,First compatible,B,1.0,0.0,0.0,False
+R026,6,accuracy_kappa,First compatible,B,1.0,0.0,0.0,False
+R027,6,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R028,6,accuracy_kappa,First compatible,B,1.0,0.0,0.0,False
+R029,6,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R030,6,accuracy_kappa,First compatible,B,1.0,0.0,0.025088,False
+R031,6,accuracy_kappa,First compatible,B,1.0,0.0,0.001627000000000045,False
+R032,6,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R017,6,accuracy_kappa,Uniform random,A,0.5,0.5,0.023223999999999967,False
+R018,6,accuracy_kappa,Uniform random,B,0.5,0.5,0.0015249999999999986,False
+R019,6,accuracy_kappa,Uniform random,A,0.5,0.5,0.0005850000000000022,False
+R020,6,accuracy_kappa,Uniform random,A,0.5,0.5,0.0,False
+R021,6,accuracy_kappa,Uniform random,B,0.5,0.5,0.0,False
+R022,6,accuracy_kappa,Uniform random,A,0.5,0.5,0.0,False
+R023,6,accuracy_kappa,Uniform random,A,0.5,0.5,0.0,False
+R024,6,accuracy_kappa,Uniform random,B,0.5,0.5,0.002037000000000011,False
+R025,6,accuracy_kappa,Uniform random,B,0.5,0.5,0.0,False
+R026,6,accuracy_kappa,Uniform random,B,0.5,0.5,0.0,False
+R027,6,accuracy_kappa,Uniform random,A,0.5,0.5,0.008054000000000006,False
+R028,6,accuracy_kappa,Uniform random,B,0.5,0.5,0.0,False
+R029,6,accuracy_kappa,Uniform random,A,0.5,0.5,0.0,False
+R030,6,accuracy_kappa,Uniform random,B,0.5,0.5,0.012544,False
+R031,6,accuracy_kappa,Uniform random,B,0.5,0.5,0.0008135000000000225,False
+R032,6,accuracy_kappa,Uniform random,A,0.5,0.5,0.0,False
+R033,12,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R034,12,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R035,12,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R036,12,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R037,12,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R038,12,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R039,12,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.012498000000000009,False
+R040,12,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0011369999999999436,False
+R041,12,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R042,12,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R043,12,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R044,12,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R045,12,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R046,12,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R047,12,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R048,12,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R033,12,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R034,12,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R035,12,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R036,12,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R037,12,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R038,12,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R039,12,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.012498000000000009,False
+R040,12,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.0011369999999999436,False
+R041,12,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R042,12,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R043,12,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R044,12,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R045,12,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R046,12,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R047,12,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R048,12,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R033,12,accuracy,Always A,B,1.0,0.0,0.0,False
+R034,12,accuracy,Always A,A,1.0,1.0,0.0,False
+R035,12,accuracy,Always A,A,1.0,1.0,0.0,False
+R036,12,accuracy,Always A,B,1.0,0.0,0.0,False
+R037,12,accuracy,Always A,A,1.0,1.0,0.0,False
+R038,12,accuracy,Always A,A,1.0,1.0,0.0,False
+R039,12,accuracy,Always A,B,1.0,0.0,0.012498000000000009,False
+R040,12,accuracy,Always A,B,1.0,0.0,0.0011369999999999436,False
+R041,12,accuracy,Always A,B,1.0,0.0,0.0,False
+R042,12,accuracy,Always A,A,1.0,1.0,0.0,False
+R043,12,accuracy,Always A,A,1.0,1.0,0.0,False
+R044,12,accuracy,Always A,B,1.0,0.0,0.0,False
+R045,12,accuracy,Always A,B,1.0,0.0,0.0,False
+R046,12,accuracy,Always A,A,1.0,1.0,0.0,False
+R047,12,accuracy,Always A,A,1.0,1.0,0.0,False
+R048,12,accuracy,Always A,B,1.0,0.0,0.0,False
+R033,12,accuracy,First compatible,B,1.0,0.0,0.0,False
+R034,12,accuracy,First compatible,A,1.0,1.0,0.0,False
+R035,12,accuracy,First compatible,A,1.0,1.0,0.0,False
+R036,12,accuracy,First compatible,B,1.0,0.0,0.0,False
+R037,12,accuracy,First compatible,A,1.0,1.0,0.0,False
+R038,12,accuracy,First compatible,A,1.0,1.0,0.0,False
+R039,12,accuracy,First compatible,B,1.0,0.0,0.012498000000000009,False
+R040,12,accuracy,First compatible,B,1.0,0.0,0.0011369999999999436,False
+R041,12,accuracy,First compatible,B,1.0,0.0,0.0,False
+R042,12,accuracy,First compatible,A,1.0,1.0,0.0,False
+R043,12,accuracy,First compatible,A,1.0,1.0,0.0,False
+R044,12,accuracy,First compatible,B,1.0,0.0,0.0,False
+R045,12,accuracy,First compatible,B,1.0,0.0,0.0,False
+R046,12,accuracy,First compatible,A,1.0,1.0,0.0,False
+R047,12,accuracy,First compatible,A,1.0,1.0,0.0,False
+R048,12,accuracy,First compatible,B,1.0,0.0,0.0,False
+R033,12,accuracy,Uniform random,B,0.5,0.5,0.0,False
+R034,12,accuracy,Uniform random,A,0.5,0.5,0.0,False
+R035,12,accuracy,Uniform random,A,0.5,0.5,0.0,False
+R036,12,accuracy,Uniform random,B,0.5,0.5,0.0,False
+R037,12,accuracy,Uniform random,A,0.5,0.5,0.0,False
+R038,12,accuracy,Uniform random,A,0.5,0.5,0.0,False
+R039,12,accuracy,Uniform random,B,0.5,0.5,0.0062490000000000046,False
+R040,12,accuracy,Uniform random,B,0.5,0.5,0.0005684999999999718,False
+R041,12,accuracy,Uniform random,B,0.5,0.5,0.0,False
+R042,12,accuracy,Uniform random,A,0.5,0.5,0.0,False
+R043,12,accuracy,Uniform random,A,0.5,0.5,0.0,False
+R044,12,accuracy,Uniform random,B,0.5,0.5,0.0,False
+R045,12,accuracy,Uniform random,B,0.5,0.5,0.0,False
+R046,12,accuracy,Uniform random,A,0.5,0.5,0.0,False
+R047,12,accuracy,Uniform random,A,0.5,0.5,0.0002590000000000092,False
+R048,12,accuracy,Uniform random,B,0.5,0.5,0.0,False
+R033,12,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R034,12,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R035,12,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R036,12,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R037,12,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R038,12,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R039,12,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.012498000000000009,False
+R040,12,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0011369999999999436,False
+R041,12,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R042,12,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R043,12,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R044,12,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R045,12,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R046,12,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R047,12,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R048,12,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R033,12,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R034,12,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R035,12,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R036,12,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R037,12,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R038,12,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R039,12,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.012498000000000009,False
+R040,12,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.0011369999999999436,False
+R041,12,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R042,12,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R043,12,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R044,12,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R045,12,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R046,12,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R047,12,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R048,12,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R033,12,accuracy_kappa,Always A,B,1.0,0.0,0.0,False
+R034,12,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R035,12,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R036,12,accuracy_kappa,Always A,B,1.0,0.0,0.0,False
+R037,12,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R038,12,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R039,12,accuracy_kappa,Always A,B,1.0,0.0,0.012498000000000009,False
+R040,12,accuracy_kappa,Always A,B,1.0,0.0,0.0011369999999999436,False
+R041,12,accuracy_kappa,Always A,B,1.0,0.0,0.0,False
+R042,12,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R043,12,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R044,12,accuracy_kappa,Always A,B,1.0,0.0,0.0,False
+R045,12,accuracy_kappa,Always A,B,1.0,0.0,0.0,False
+R046,12,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R047,12,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R048,12,accuracy_kappa,Always A,B,1.0,0.0,0.0,False
+R033,12,accuracy_kappa,First compatible,B,1.0,0.0,0.0,False
+R034,12,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R035,12,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R036,12,accuracy_kappa,First compatible,B,1.0,0.0,0.0,False
+R037,12,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R038,12,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R039,12,accuracy_kappa,First compatible,B,1.0,0.0,0.012498000000000009,False
+R040,12,accuracy_kappa,First compatible,B,1.0,0.0,0.0011369999999999436,False
+R041,12,accuracy_kappa,First compatible,B,1.0,0.0,0.0,False
+R042,12,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R043,12,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R044,12,accuracy_kappa,First compatible,B,1.0,0.0,0.0,False
+R045,12,accuracy_kappa,First compatible,B,1.0,0.0,0.0,False
+R046,12,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R047,12,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R048,12,accuracy_kappa,First compatible,B,1.0,0.0,0.0,False
+R033,12,accuracy_kappa,Uniform random,B,0.5,0.5,0.0,False
+R034,12,accuracy_kappa,Uniform random,A,0.5,0.5,0.0,False
+R035,12,accuracy_kappa,Uniform random,A,0.5,0.5,0.0,False
+R036,12,accuracy_kappa,Uniform random,B,0.5,0.5,0.0,False
+R037,12,accuracy_kappa,Uniform random,A,0.5,0.5,0.0,False
+R038,12,accuracy_kappa,Uniform random,A,0.5,0.5,0.0,False
+R039,12,accuracy_kappa,Uniform random,B,0.5,0.5,0.0062490000000000046,False
+R040,12,accuracy_kappa,Uniform random,B,0.5,0.5,0.0005684999999999718,False
+R041,12,accuracy_kappa,Uniform random,B,0.5,0.5,0.0,False
+R042,12,accuracy_kappa,Uniform random,A,0.5,0.5,0.0,False
+R043,12,accuracy_kappa,Uniform random,A,0.5,0.5,0.0,False
+R044,12,accuracy_kappa,Uniform random,B,0.5,0.5,0.0,False
+R045,12,accuracy_kappa,Uniform random,B,0.5,0.5,0.0,False
+R046,12,accuracy_kappa,Uniform random,A,0.5,0.5,0.0,False
+R047,12,accuracy_kappa,Uniform random,A,0.5,0.5,0.0002590000000000092,False
+R048,12,accuracy_kappa,Uniform random,B,0.5,0.5,0.0,False
+R049,23,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R050,23,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R051,23,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R052,23,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.00578500000000004,False
+R053,23,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R054,23,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R055,23,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.022004000000000024,False
+R056,23,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R057,23,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0046800000000000175,False
+R058,23,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R059,23,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R060,23,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R061,23,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R062,23,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R063,23,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R064,23,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R049,23,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R050,23,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R051,23,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R052,23,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.00578500000000004,False
+R053,23,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R054,23,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R055,23,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.022004000000000024,False
+R056,23,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R057,23,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.0046800000000000175,False
+R058,23,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R059,23,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R060,23,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R061,23,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R062,23,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R063,23,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R064,23,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R049,23,accuracy,Always A,A,1.0,1.0,0.0,False
+R050,23,accuracy,Always A,B,1.0,0.0,0.0,False
+R051,23,accuracy,Always A,B,1.0,0.0,0.0,False
+R052,23,accuracy,Always A,B,1.0,0.0,0.00578500000000004,False
+R053,23,accuracy,Always A,B,1.0,0.0,0.0,False
+R054,23,accuracy,Always A,A,1.0,1.0,0.0,False
+R055,23,accuracy,Always A,B,1.0,0.0,0.022004000000000024,False
+R056,23,accuracy,Always A,A,1.0,1.0,0.0,False
+R057,23,accuracy,Always A,B,1.0,0.0,0.0046800000000000175,False
+R058,23,accuracy,Always A,B,1.0,0.0,0.0,False
+R059,23,accuracy,Always A,A,1.0,1.0,0.0,False
+R060,23,accuracy,Always A,A,1.0,1.0,0.0,False
+R061,23,accuracy,Always A,A,1.0,1.0,0.0,False
+R062,23,accuracy,Always A,A,1.0,1.0,0.0,False
+R063,23,accuracy,Always A,B,1.0,0.0,0.0,False
+R064,23,accuracy,Always A,A,1.0,1.0,0.0,False
+R049,23,accuracy,First compatible,A,1.0,1.0,0.0,False
+R050,23,accuracy,First compatible,B,1.0,0.0,0.0,False
+R051,23,accuracy,First compatible,B,1.0,0.0,0.0,False
+R052,23,accuracy,First compatible,B,1.0,0.0,0.00578500000000004,False
+R053,23,accuracy,First compatible,B,1.0,0.0,0.0,False
+R054,23,accuracy,First compatible,A,1.0,1.0,0.0,False
+R055,23,accuracy,First compatible,B,1.0,0.0,0.022004000000000024,False
+R056,23,accuracy,First compatible,A,1.0,1.0,0.0,False
+R057,23,accuracy,First compatible,B,1.0,0.0,0.0046800000000000175,False
+R058,23,accuracy,First compatible,B,1.0,0.0,0.0,False
+R059,23,accuracy,First compatible,A,1.0,1.0,0.0,False
+R060,23,accuracy,First compatible,A,1.0,1.0,0.0,False
+R061,23,accuracy,First compatible,A,1.0,1.0,0.0,False
+R062,23,accuracy,First compatible,A,1.0,1.0,0.0,False
+R063,23,accuracy,First compatible,B,1.0,0.0,0.0,False
+R064,23,accuracy,First compatible,A,1.0,1.0,0.0,False
+R049,23,accuracy,Uniform random,A,0.5,0.5,0.0,False
+R050,23,accuracy,Uniform random,B,0.5,0.5,0.0,False
+R051,23,accuracy,Uniform random,B,0.5,0.5,0.0,False
+R052,23,accuracy,Uniform random,B,0.5,0.5,0.00289250000000002,False
+R053,23,accuracy,Uniform random,B,0.5,0.5,0.0,False
+R054,23,accuracy,Uniform random,A,0.5,0.5,0.0,False
+R055,23,accuracy,Uniform random,B,0.5,0.5,0.011002000000000012,False
+R056,23,accuracy,Uniform random,A,0.5,0.5,0.0,False
+R057,23,accuracy,Uniform random,B,0.5,0.5,0.0023400000000000087,False
+R058,23,accuracy,Uniform random,B,0.5,0.5,0.0,False
+R059,23,accuracy,Uniform random,A,0.5,0.5,0.0,False
+R060,23,accuracy,Uniform random,A,0.5,0.5,0.0,False
+R061,23,accuracy,Uniform random,A,0.5,0.5,0.004765000000000019,False
+R062,23,accuracy,Uniform random,A,0.5,0.5,0.0,False
+R063,23,accuracy,Uniform random,B,0.5,0.5,0.0,False
+R064,23,accuracy,Uniform random,A,0.5,0.5,0.003033999999999981,False
+R049,23,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R050,23,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R051,23,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R052,23,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.00578500000000004,False
+R053,23,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R054,23,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R055,23,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.022004000000000024,False
+R056,23,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R057,23,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0046800000000000175,False
+R058,23,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R059,23,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R060,23,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R061,23,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R062,23,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R063,23,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R064,23,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R049,23,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R050,23,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R051,23,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R052,23,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.00578500000000004,False
+R053,23,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R054,23,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R055,23,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.022004000000000024,False
+R056,23,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R057,23,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.0046800000000000175,False
+R058,23,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R059,23,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R060,23,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R061,23,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R062,23,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R063,23,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R064,23,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R049,23,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R050,23,accuracy_kappa,Always A,B,1.0,0.0,0.0,False
+R051,23,accuracy_kappa,Always A,B,1.0,0.0,0.0,False
+R052,23,accuracy_kappa,Always A,B,1.0,0.0,0.00578500000000004,False
+R053,23,accuracy_kappa,Always A,B,1.0,0.0,0.0,False
+R054,23,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R055,23,accuracy_kappa,Always A,B,1.0,0.0,0.022004000000000024,False
+R056,23,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R057,23,accuracy_kappa,Always A,B,1.0,0.0,0.0046800000000000175,False
+R058,23,accuracy_kappa,Always A,B,1.0,0.0,0.0,False
+R059,23,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R060,23,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R061,23,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R062,23,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R063,23,accuracy_kappa,Always A,B,1.0,0.0,0.0,False
+R064,23,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R049,23,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R050,23,accuracy_kappa,First compatible,B,1.0,0.0,0.0,False
+R051,23,accuracy_kappa,First compatible,B,1.0,0.0,0.0,False
+R052,23,accuracy_kappa,First compatible,B,1.0,0.0,0.00578500000000004,False
+R053,23,accuracy_kappa,First compatible,B,1.0,0.0,0.0,False
+R054,23,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R055,23,accuracy_kappa,First compatible,B,1.0,0.0,0.022004000000000024,False
+R056,23,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R057,23,accuracy_kappa,First compatible,B,1.0,0.0,0.0046800000000000175,False
+R058,23,accuracy_kappa,First compatible,B,1.0,0.0,0.0,False
+R059,23,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R060,23,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R061,23,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R062,23,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R063,23,accuracy_kappa,First compatible,B,1.0,0.0,0.0,False
+R064,23,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R049,23,accuracy_kappa,Uniform random,A,0.5,0.5,0.0,False
+R050,23,accuracy_kappa,Uniform random,B,0.5,0.5,0.0,False
+R051,23,accuracy_kappa,Uniform random,B,0.5,0.5,0.0,False
+R052,23,accuracy_kappa,Uniform random,B,0.5,0.5,0.00289250000000002,False
+R053,23,accuracy_kappa,Uniform random,B,0.5,0.5,0.0,False
+R054,23,accuracy_kappa,Uniform random,A,0.5,0.5,0.0,False
+R055,23,accuracy_kappa,Uniform random,B,0.5,0.5,0.011002000000000012,False
+R056,23,accuracy_kappa,Uniform random,A,0.5,0.5,0.0,False
+R057,23,accuracy_kappa,Uniform random,B,0.5,0.5,0.0023400000000000087,False
+R058,23,accuracy_kappa,Uniform random,B,0.5,0.5,0.0,False
+R059,23,accuracy_kappa,Uniform random,A,0.5,0.5,0.0,False
+R060,23,accuracy_kappa,Uniform random,A,0.5,0.5,0.0,False
+R061,23,accuracy_kappa,Uniform random,A,0.5,0.5,0.004765000000000019,False
+R062,23,accuracy_kappa,Uniform random,A,0.5,0.5,0.0,False
+R063,23,accuracy_kappa,Uniform random,B,0.5,0.5,0.0,False
+R064,23,accuracy_kappa,Uniform random,A,0.5,0.5,0.003033999999999981,False
+R065,28,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.010354999999999892,False
+R066,28,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R067,28,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R068,28,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R069,28,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R070,28,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R071,28,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R072,28,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R073,28,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R074,28,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R075,28,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R076,28,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R077,28,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R078,28,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R079,28,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R080,28,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R065,28,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.010354999999999892,False
+R066,28,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R067,28,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R068,28,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R069,28,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R070,28,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R071,28,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R072,28,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R073,28,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R074,28,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R075,28,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R076,28,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R077,28,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R078,28,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R079,28,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R080,28,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R065,28,accuracy,Always A,B,1.0,0.0,0.010354999999999892,False
+R066,28,accuracy,Always A,A,1.0,1.0,0.0,False
+R067,28,accuracy,Always A,A,1.0,1.0,0.0,False
+R068,28,accuracy,Always A,A,1.0,1.0,0.0,False
+R069,28,accuracy,Always A,A,1.0,1.0,0.0,False
+R070,28,accuracy,Always A,B,1.0,0.0,0.0,False
+R071,28,accuracy,Always A,A,1.0,1.0,0.0,False
+R072,28,accuracy,Always A,B,1.0,0.0,0.0,False
+R073,28,accuracy,Always A,B,1.0,0.0,0.0,False
+R074,28,accuracy,Always A,A,1.0,1.0,0.0,False
+R075,28,accuracy,Always A,B,1.0,0.0,0.0,False
+R076,28,accuracy,Always A,A,1.0,1.0,0.0,False
+R077,28,accuracy,Always A,B,1.0,0.0,0.0,False
+R078,28,accuracy,Always A,A,1.0,1.0,0.0,False
+R079,28,accuracy,Always A,B,1.0,0.0,0.0,False
+R080,28,accuracy,Always A,B,1.0,0.0,0.0,False
+R065,28,accuracy,First compatible,B,1.0,0.0,0.010354999999999892,False
+R066,28,accuracy,First compatible,A,1.0,1.0,0.0,False
+R067,28,accuracy,First compatible,A,1.0,1.0,0.0,False
+R068,28,accuracy,First compatible,A,1.0,1.0,0.0,False
+R069,28,accuracy,First compatible,A,1.0,1.0,0.0,False
+R070,28,accuracy,First compatible,B,1.0,0.0,0.0,False
+R071,28,accuracy,First compatible,A,1.0,1.0,0.0,False
+R072,28,accuracy,First compatible,B,1.0,0.0,0.0,False
+R073,28,accuracy,First compatible,B,1.0,0.0,0.0,False
+R074,28,accuracy,First compatible,A,1.0,1.0,0.0,False
+R075,28,accuracy,First compatible,B,1.0,0.0,0.0,False
+R076,28,accuracy,First compatible,A,1.0,1.0,0.0,False
+R077,28,accuracy,First compatible,B,1.0,0.0,0.0,False
+R078,28,accuracy,First compatible,A,1.0,1.0,0.0,False
+R079,28,accuracy,First compatible,B,1.0,0.0,0.0,False
+R080,28,accuracy,First compatible,B,1.0,0.0,0.0,False
+R065,28,accuracy,Uniform random,B,0.5,0.5,0.005177499999999946,False
+R066,28,accuracy,Uniform random,A,0.5,0.5,0.0,False
+R067,28,accuracy,Uniform random,A,0.5,0.5,0.0018714999999999704,False
+R068,28,accuracy,Uniform random,A,0.5,0.5,0.0,False
+R069,28,accuracy,Uniform random,A,0.5,0.5,0.0,False
+R070,28,accuracy,Uniform random,B,0.5,0.5,0.0,False
+R071,28,accuracy,Uniform random,A,0.5,0.5,0.0,False
+R072,28,accuracy,Uniform random,B,0.5,0.5,0.0,False
+R073,28,accuracy,Uniform random,B,0.5,0.5,0.0,False
+R074,28,accuracy,Uniform random,A,0.5,0.5,0.0,False
+R075,28,accuracy,Uniform random,B,0.5,0.5,0.0,False
+R076,28,accuracy,Uniform random,A,0.5,0.5,0.0,False
+R077,28,accuracy,Uniform random,B,0.5,0.5,0.0,False
+R078,28,accuracy,Uniform random,A,0.5,0.5,0.0006079999999999974,False
+R079,28,accuracy,Uniform random,B,0.5,0.5,0.0,False
+R080,28,accuracy,Uniform random,B,0.5,0.5,0.0,False
+R065,28,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.010354999999999892,False
+R066,28,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R067,28,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R068,28,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R069,28,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R070,28,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R071,28,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R072,28,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R073,28,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R074,28,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R075,28,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R076,28,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R077,28,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R078,28,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R079,28,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R080,28,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R065,28,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.010354999999999892,False
+R066,28,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R067,28,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R068,28,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R069,28,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R070,28,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R071,28,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R072,28,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R073,28,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R074,28,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R075,28,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R076,28,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R077,28,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R078,28,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R079,28,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R080,28,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R065,28,accuracy_kappa,Always A,B,1.0,0.0,0.010354999999999892,False
+R066,28,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R067,28,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R068,28,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R069,28,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R070,28,accuracy_kappa,Always A,B,1.0,0.0,0.0,False
+R071,28,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R072,28,accuracy_kappa,Always A,B,1.0,0.0,0.0,False
+R073,28,accuracy_kappa,Always A,B,1.0,0.0,0.0,False
+R074,28,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R075,28,accuracy_kappa,Always A,B,1.0,0.0,0.0,False
+R076,28,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R077,28,accuracy_kappa,Always A,B,1.0,0.0,0.0,False
+R078,28,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R079,28,accuracy_kappa,Always A,B,1.0,0.0,0.0,False
+R080,28,accuracy_kappa,Always A,B,1.0,0.0,0.0,False
+R065,28,accuracy_kappa,First compatible,B,1.0,0.0,0.010354999999999892,False
+R066,28,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R067,28,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R068,28,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R069,28,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R070,28,accuracy_kappa,First compatible,B,1.0,0.0,0.0,False
+R071,28,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R072,28,accuracy_kappa,First compatible,B,1.0,0.0,0.0,False
+R073,28,accuracy_kappa,First compatible,B,1.0,0.0,0.0,False
+R074,28,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R075,28,accuracy_kappa,First compatible,B,1.0,0.0,0.0,False
+R076,28,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R077,28,accuracy_kappa,First compatible,B,1.0,0.0,0.0,False
+R078,28,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R079,28,accuracy_kappa,First compatible,B,1.0,0.0,0.0,False
+R080,28,accuracy_kappa,First compatible,B,1.0,0.0,0.0,False
+R065,28,accuracy_kappa,Uniform random,B,0.5,0.5,0.005177499999999946,False
+R066,28,accuracy_kappa,Uniform random,A,0.5,0.5,0.0,False
+R067,28,accuracy_kappa,Uniform random,A,0.5,0.5,0.0018714999999999704,False
+R068,28,accuracy_kappa,Uniform random,A,0.5,0.5,0.0,False
+R069,28,accuracy_kappa,Uniform random,A,0.5,0.5,0.0,False
+R070,28,accuracy_kappa,Uniform random,B,0.5,0.5,0.0,False
+R071,28,accuracy_kappa,Uniform random,A,0.5,0.5,0.0,False
+R072,28,accuracy_kappa,Uniform random,B,0.5,0.5,0.0,False
+R073,28,accuracy_kappa,Uniform random,B,0.5,0.5,0.0,False
+R074,28,accuracy_kappa,Uniform random,A,0.5,0.5,0.0,False
+R075,28,accuracy_kappa,Uniform random,B,0.5,0.5,0.0,False
+R076,28,accuracy_kappa,Uniform random,A,0.5,0.5,0.0,False
+R077,28,accuracy_kappa,Uniform random,B,0.5,0.5,0.0,False
+R078,28,accuracy_kappa,Uniform random,A,0.5,0.5,0.0006079999999999974,False
+R079,28,accuracy_kappa,Uniform random,B,0.5,0.5,0.0,False
+R080,28,accuracy_kappa,Uniform random,B,0.5,0.5,0.0,False
+R081,31,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R082,31,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R083,31,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.21494800000000003,False
+R084,31,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R085,31,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R086,31,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R087,31,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R088,31,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.11029500000000003,False
+R089,31,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.15248099999999998,False
+R090,31,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R091,31,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.012426000000000048,False
+R092,31,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.09960199999999997,False
+R093,31,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R094,31,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R095,31,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.006522000000000028,False
+R096,31,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R081,31,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R082,31,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R083,31,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.21494800000000003,False
+R084,31,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R085,31,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R086,31,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R087,31,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R088,31,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.11029500000000003,False
+R089,31,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.15248099999999998,False
+R090,31,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R091,31,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.012426000000000048,False
+R092,31,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.09960199999999997,False
+R093,31,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R094,31,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R095,31,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.006522000000000028,False
+R096,31,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R081,31,accuracy,Always A,A,1.0,1.0,0.0,False
+R082,31,accuracy,Always A,A,1.0,1.0,0.0,False
+R083,31,accuracy,Always A,B,1.0,0.0,0.21494800000000003,False
+R084,31,accuracy,Always A,A,1.0,1.0,0.0,False
+R085,31,accuracy,Always A,A,1.0,1.0,0.0,False
+R086,31,accuracy,Always A,B,1.0,0.0,0.0,False
+R087,31,accuracy,Always A,A,1.0,1.0,0.0,False
+R088,31,accuracy,Always A,B,1.0,0.0,0.11029500000000003,False
+R089,31,accuracy,Always A,B,1.0,0.0,0.15248099999999998,False
+R090,31,accuracy,Always A,A,1.0,1.0,0.0,False
+R091,31,accuracy,Always A,B,1.0,0.0,0.012426000000000048,False
+R092,31,accuracy,Always A,B,1.0,0.0,0.09960199999999997,False
+R093,31,accuracy,Always A,A,1.0,1.0,0.0,False
+R094,31,accuracy,Always A,B,1.0,0.0,0.0,False
+R095,31,accuracy,Always A,B,1.0,0.0,0.006522000000000028,False
+R096,31,accuracy,Always A,A,1.0,1.0,0.0,False
+R081,31,accuracy,First compatible,A,1.0,1.0,0.0,False
+R082,31,accuracy,First compatible,A,1.0,1.0,0.0,False
+R083,31,accuracy,First compatible,B,1.0,0.0,0.21494800000000003,False
+R084,31,accuracy,First compatible,A,1.0,1.0,0.0,False
+R085,31,accuracy,First compatible,A,1.0,1.0,0.0,False
+R086,31,accuracy,First compatible,B,1.0,0.0,0.0,False
+R087,31,accuracy,First compatible,A,1.0,1.0,0.0,False
+R088,31,accuracy,First compatible,B,1.0,0.0,0.11029500000000003,False
+R089,31,accuracy,First compatible,B,1.0,0.0,0.15248099999999998,False
+R090,31,accuracy,First compatible,A,1.0,1.0,0.0,False
+R091,31,accuracy,First compatible,B,1.0,0.0,0.012426000000000048,False
+R092,31,accuracy,First compatible,B,1.0,0.0,0.09960199999999997,False
+R093,31,accuracy,First compatible,A,1.0,1.0,0.0,False
+R094,31,accuracy,First compatible,B,1.0,0.0,0.0,False
+R095,31,accuracy,First compatible,B,1.0,0.0,0.006522000000000028,False
+R096,31,accuracy,First compatible,A,1.0,1.0,0.0,False
+R081,31,accuracy,Uniform random,A,0.5,0.5,0.0030155000000000043,False
+R082,31,accuracy,Uniform random,A,0.5,0.5,0.0,False
+R083,31,accuracy,Uniform random,B,0.5,0.5,0.10747400000000001,False
+R084,31,accuracy,Uniform random,A,0.5,0.5,0.03995350000000003,False
+R085,31,accuracy,Uniform random,A,0.5,0.5,0.006862000000000035,False
+R086,31,accuracy,Uniform random,B,0.5,0.5,0.0,False
+R087,31,accuracy,Uniform random,A,0.5,0.5,0.0036329999999999973,False
+R088,31,accuracy,Uniform random,B,0.5,0.5,0.055147500000000016,False
+R089,31,accuracy,Uniform random,B,0.5,0.5,0.07624049999999999,False
+R090,31,accuracy,Uniform random,A,0.5,0.5,0.017290499999999986,False
+R091,31,accuracy,Uniform random,B,0.5,0.5,0.006213000000000024,False
+R092,31,accuracy,Uniform random,B,0.5,0.5,0.049800999999999984,False
+R093,31,accuracy,Uniform random,A,0.5,0.5,0.0,False
+R094,31,accuracy,Uniform random,B,0.5,0.5,0.0,False
+R095,31,accuracy,Uniform random,B,0.5,0.5,0.003261000000000014,False
+R096,31,accuracy,Uniform random,A,0.5,0.5,0.07529750000000002,False
+R081,31,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R082,31,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R083,31,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.21494800000000003,True
+R084,31,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R085,31,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R086,31,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R087,31,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R088,31,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.11029500000000003,False
+R089,31,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.15248099999999998,False
+R090,31,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,True
+R091,31,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.012426000000000048,False
+R092,31,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.09960199999999997,False
+R093,31,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R094,31,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R095,31,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.006522000000000028,True
+R096,31,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R081,31,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R082,31,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R083,31,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.21494800000000003,True
+R084,31,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R085,31,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R086,31,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R087,31,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R088,31,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.11029500000000003,False
+R089,31,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.15248099999999998,False
+R090,31,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,True
+R091,31,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.012426000000000048,False
+R092,31,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.09960199999999997,False
+R093,31,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R094,31,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R095,31,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.006522000000000028,True
+R096,31,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R081,31,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R082,31,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R083,31,accuracy_kappa,Always A,B,1.0,0.0,0.21494800000000003,True
+R084,31,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R085,31,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R086,31,accuracy_kappa,Always A,B,1.0,0.0,0.0,False
+R087,31,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R088,31,accuracy_kappa,Always A,B,1.0,0.0,0.11029500000000003,False
+R089,31,accuracy_kappa,Always A,B,1.0,0.0,0.15248099999999998,False
+R090,31,accuracy_kappa,Always A,A,1.0,1.0,0.0,True
+R091,31,accuracy_kappa,Always A,B,1.0,0.0,0.012426000000000048,False
+R092,31,accuracy_kappa,Always A,B,1.0,0.0,0.09960199999999997,False
+R093,31,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R094,31,accuracy_kappa,Always A,B,1.0,0.0,0.0,False
+R095,31,accuracy_kappa,Always A,B,1.0,0.0,0.006522000000000028,True
+R096,31,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R081,31,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R082,31,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R083,31,accuracy_kappa,First compatible,B,0.0,1.0,0.0,True
+R084,31,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R085,31,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R086,31,accuracy_kappa,First compatible,B,1.0,0.0,0.0,False
+R087,31,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R088,31,accuracy_kappa,First compatible,B,1.0,0.0,0.11029500000000003,False
+R089,31,accuracy_kappa,First compatible,B,1.0,0.0,0.15248099999999998,False
+R090,31,accuracy_kappa,First compatible,A,1.0,1.0,0.0,True
+R091,31,accuracy_kappa,First compatible,B,1.0,0.0,0.012426000000000048,False
+R092,31,accuracy_kappa,First compatible,B,1.0,0.0,0.09960199999999997,False
+R093,31,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R094,31,accuracy_kappa,First compatible,B,1.0,0.0,0.0,False
+R095,31,accuracy_kappa,First compatible,B,0.0,1.0,0.0,True
+R096,31,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R081,31,accuracy_kappa,Uniform random,A,0.5,0.5,0.0030155000000000043,False
+R082,31,accuracy_kappa,Uniform random,A,0.5,0.5,0.0,False
+R083,31,accuracy_kappa,Uniform random,B,0.5,0.5,0.10747400000000001,True
+R084,31,accuracy_kappa,Uniform random,A,0.5,0.5,0.03995350000000003,False
+R085,31,accuracy_kappa,Uniform random,A,0.5,0.5,0.006862000000000035,False
+R086,31,accuracy_kappa,Uniform random,B,0.5,0.5,0.0,False
+R087,31,accuracy_kappa,Uniform random,A,0.5,0.5,0.0036329999999999973,False
+R088,31,accuracy_kappa,Uniform random,B,0.5,0.5,0.055147500000000016,False
+R089,31,accuracy_kappa,Uniform random,B,0.5,0.5,0.07624049999999999,False
+R090,31,accuracy_kappa,Uniform random,A,0.5,0.5,0.017290499999999986,True
+R091,31,accuracy_kappa,Uniform random,B,0.5,0.5,0.006213000000000024,False
+R092,31,accuracy_kappa,Uniform random,B,0.5,0.5,0.049800999999999984,False
+R093,31,accuracy_kappa,Uniform random,A,0.5,0.5,0.0,False
+R094,31,accuracy_kappa,Uniform random,B,0.5,0.5,0.0,False
+R095,31,accuracy_kappa,Uniform random,B,0.5,0.5,0.003261000000000014,True
+R096,31,accuracy_kappa,Uniform random,A,0.5,0.5,0.07529750000000002,False
+R097,37,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R098,37,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.09823899999999997,False
+R099,37,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R100,37,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R101,37,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.020287999999999973,False
+R102,37,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.01204100000000008,False
+R103,37,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R104,37,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R105,37,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R106,37,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R107,37,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.11182899999999996,False
+R108,37,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R109,37,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R110,37,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R111,37,accuracy,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R112,37,accuracy,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R097,37,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R098,37,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.09823899999999997,False
+R099,37,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R100,37,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R101,37,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.020287999999999973,False
+R102,37,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.01204100000000008,False
+R103,37,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R104,37,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R105,37,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R106,37,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R107,37,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.11182899999999996,False
+R108,37,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R109,37,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R110,37,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R111,37,accuracy,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R112,37,accuracy,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R097,37,accuracy,Always A,A,1.0,1.0,0.0,False
+R098,37,accuracy,Always A,B,1.0,0.0,0.09823899999999997,False
+R099,37,accuracy,Always A,A,1.0,1.0,0.0,False
+R100,37,accuracy,Always A,A,1.0,1.0,0.0,False
+R101,37,accuracy,Always A,B,1.0,0.0,0.020287999999999973,False
+R102,37,accuracy,Always A,B,1.0,0.0,0.01204100000000008,False
+R103,37,accuracy,Always A,A,1.0,1.0,0.0,False
+R104,37,accuracy,Always A,A,1.0,1.0,0.0,False
+R105,37,accuracy,Always A,B,1.0,0.0,0.0,False
+R106,37,accuracy,Always A,A,1.0,1.0,0.0,False
+R107,37,accuracy,Always A,B,1.0,0.0,0.11182899999999996,False
+R108,37,accuracy,Always A,A,1.0,1.0,0.0,False
+R109,37,accuracy,Always A,B,1.0,0.0,0.0,False
+R110,37,accuracy,Always A,B,1.0,0.0,0.0,False
+R111,37,accuracy,Always A,A,1.0,1.0,0.0,False
+R112,37,accuracy,Always A,B,1.0,0.0,0.0,False
+R097,37,accuracy,First compatible,A,1.0,1.0,0.0,False
+R098,37,accuracy,First compatible,B,1.0,0.0,0.09823899999999997,False
+R099,37,accuracy,First compatible,A,1.0,1.0,0.0,False
+R100,37,accuracy,First compatible,A,1.0,1.0,0.0,False
+R101,37,accuracy,First compatible,B,1.0,0.0,0.020287999999999973,False
+R102,37,accuracy,First compatible,B,1.0,0.0,0.01204100000000008,False
+R103,37,accuracy,First compatible,A,1.0,1.0,0.0,False
+R104,37,accuracy,First compatible,A,1.0,1.0,0.0,False
+R105,37,accuracy,First compatible,B,1.0,0.0,0.0,False
+R106,37,accuracy,First compatible,A,1.0,1.0,0.0,False
+R107,37,accuracy,First compatible,B,1.0,0.0,0.11182899999999996,False
+R108,37,accuracy,First compatible,A,1.0,1.0,0.0,False
+R109,37,accuracy,First compatible,B,1.0,0.0,0.0,False
+R110,37,accuracy,First compatible,B,1.0,0.0,0.0,False
+R111,37,accuracy,First compatible,A,1.0,1.0,0.0,False
+R112,37,accuracy,First compatible,B,1.0,0.0,0.0,False
+R097,37,accuracy,Uniform random,A,0.5,0.5,0.005125000000000046,False
+R098,37,accuracy,Uniform random,B,0.5,0.5,0.04911949999999998,False
+R099,37,accuracy,Uniform random,A,0.5,0.5,0.019830499999999973,False
+R100,37,accuracy,Uniform random,A,0.5,0.5,0.0,False
+R101,37,accuracy,Uniform random,B,0.5,0.5,0.010143999999999986,False
+R102,37,accuracy,Uniform random,B,0.5,0.5,0.00602050000000004,False
+R103,37,accuracy,Uniform random,A,0.5,0.5,0.0,False
+R104,37,accuracy,Uniform random,A,0.5,0.5,0.0,False
+R105,37,accuracy,Uniform random,B,0.5,0.5,0.0,False
+R106,37,accuracy,Uniform random,A,0.5,0.5,0.0038225000000000064,False
+R107,37,accuracy,Uniform random,B,0.5,0.5,0.05591449999999998,False
+R108,37,accuracy,Uniform random,A,0.5,0.5,0.002958525419776148,False
+R109,37,accuracy,Uniform random,B,0.5,0.5,0.0,False
+R110,37,accuracy,Uniform random,B,0.5,0.5,0.0,False
+R111,37,accuracy,Uniform random,A,0.5,0.5,0.0,False
+R112,37,accuracy,Uniform random,B,0.5,0.5,0.0,False
+R097,37,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R098,37,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.09823899999999997,False
+R099,37,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R100,37,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R101,37,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.020287999999999973,False
+R102,37,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.01204100000000008,True
+R103,37,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R104,37,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R105,37,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R106,37,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R107,37,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.11182899999999996,False
+R108,37,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R109,37,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R110,37,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R111,37,accuracy_kappa,Qwen2.5-0.5B-Instruct,A,1.0,1.0,0.0,False
+R112,37,accuracy_kappa,Qwen2.5-0.5B-Instruct,B,1.0,0.0,0.0,False
+R097,37,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R098,37,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.09823899999999997,False
+R099,37,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R100,37,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R101,37,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.020287999999999973,False
+R102,37,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.01204100000000008,True
+R103,37,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R104,37,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R105,37,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R106,37,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R107,37,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.11182899999999996,False
+R108,37,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R109,37,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R110,37,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R111,37,accuracy_kappa,SmolLM2-135M-Instruct,A,1.0,1.0,0.0,False
+R112,37,accuracy_kappa,SmolLM2-135M-Instruct,B,1.0,0.0,0.0,False
+R097,37,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R098,37,accuracy_kappa,Always A,B,1.0,0.0,0.09823899999999997,False
+R099,37,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R100,37,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R101,37,accuracy_kappa,Always A,B,1.0,0.0,0.020287999999999973,False
+R102,37,accuracy_kappa,Always A,B,1.0,0.0,0.01204100000000008,True
+R103,37,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R104,37,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R105,37,accuracy_kappa,Always A,B,1.0,0.0,0.0,False
+R106,37,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R107,37,accuracy_kappa,Always A,B,1.0,0.0,0.11182899999999996,False
+R108,37,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R109,37,accuracy_kappa,Always A,B,1.0,0.0,0.0,False
+R110,37,accuracy_kappa,Always A,B,1.0,0.0,0.0,False
+R111,37,accuracy_kappa,Always A,A,1.0,1.0,0.0,False
+R112,37,accuracy_kappa,Always A,B,1.0,0.0,0.0,False
+R097,37,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R098,37,accuracy_kappa,First compatible,B,1.0,0.0,0.09823899999999997,False
+R099,37,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R100,37,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R101,37,accuracy_kappa,First compatible,B,1.0,0.0,0.020287999999999973,False
+R102,37,accuracy_kappa,First compatible,B,0.0,1.0,0.0,True
+R103,37,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R104,37,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R105,37,accuracy_kappa,First compatible,B,1.0,0.0,0.0,False
+R106,37,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R107,37,accuracy_kappa,First compatible,B,1.0,0.0,0.11182899999999996,False
+R108,37,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R109,37,accuracy_kappa,First compatible,B,1.0,0.0,0.0,False
+R110,37,accuracy_kappa,First compatible,B,1.0,0.0,0.0,False
+R111,37,accuracy_kappa,First compatible,A,1.0,1.0,0.0,False
+R112,37,accuracy_kappa,First compatible,B,1.0,0.0,0.0,False
+R097,37,accuracy_kappa,Uniform random,A,0.5,0.5,0.005125000000000046,False
+R098,37,accuracy_kappa,Uniform random,B,0.5,0.5,0.04911949999999998,False
+R099,37,accuracy_kappa,Uniform random,A,0.5,0.5,0.019830499999999973,False
+R100,37,accuracy_kappa,Uniform random,A,0.5,0.5,0.0,False
+R101,37,accuracy_kappa,Uniform random,B,0.5,0.5,0.010143999999999986,False
+R102,37,accuracy_kappa,Uniform random,B,0.5,0.5,0.00602050000000004,True
+R103,37,accuracy_kappa,Uniform random,A,0.5,0.5,0.0,False
+R104,37,accuracy_kappa,Uniform random,A,0.5,0.5,0.0,False
+R105,37,accuracy_kappa,Uniform random,B,0.5,0.5,0.0,False
+R106,37,accuracy_kappa,Uniform random,A,0.5,0.5,0.0038225000000000064,False
+R107,37,accuracy_kappa,Uniform random,B,0.5,0.5,0.05591449999999998,False
+R108,37,accuracy_kappa,Uniform random,A,0.5,0.5,0.002958525419776148,False
+R109,37,accuracy_kappa,Uniform random,B,0.5,0.5,0.0,False
+R110,37,accuracy_kappa,Uniform random,B,0.5,0.5,0.0,False
+R111,37,accuracy_kappa,Uniform random,A,0.5,0.5,0.0,False
+R112,37,accuracy_kappa,Uniform random,B,0.5,0.5,0.0,False

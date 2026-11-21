@@ -1,7 +1,7 @@
 cff-version: 1.2.0
-message: "Please cite this software when reusing its methods."
+message: "Please cite this software if you use it."
 type: software
-title: "Recovering model choices and scores from incomplete analysis records on three measured datasets"
+title: "Can rounded classifier scores identify an archived result?"
 authors:
   - family-names: Thaker
     given-names: Vedant
