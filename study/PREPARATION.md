@@ -5,3 +5,7 @@ The research question and author-supplied disclosures are attributed to Vedant T
 An independent enumeration validates the full-catalog counts, model answer hashes, disjoint run pairs and constant-position baseline. Two published AUCs were independently recomputed from out-of-fold predictions; human re-execution remains unmeasured.
 
 The supplement README identifies the inputs and computations needed to inspect the numerical results. Earlier public material is retained at https://github.com/VEDANT1602/materials-workflow-replay/tree/8c26d42b38d18174733b57c1ffd6b50c3fb8d4fa .
+
+## Current work
+
+Vedant Thaker is the sole author and set the research question. OpenAI Codex assisted with designing and running the archive comparisons, checking source material and drafting the manuscript. All results reported here come from archived classifier evaluations or computations on those evaluations.

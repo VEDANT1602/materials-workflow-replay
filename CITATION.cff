@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "Please cite this software if you use it."
 type: software
-title: "Can rounded classifier scores identify an archived result?"
+title: "How the candidate catalog changes the recovery of a missing classifier score"
 authors:
   - family-names: Thaker
     given-names: Vedant

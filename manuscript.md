@@ -1,75 +1,59 @@
-# Can rounded classifier scores identify an archived result?
+# How the candidate catalog changes the recovery of a missing classifier score
 
 Vedant Thaker  
 Independent Researcher, Jeffersonville, Indiana, USA  
 vedant.thaker1602@gmail.com
 
-21 November 2026
+Reproducibility study
 
 ### Abstract
 
-A reader has the dataset name and the accuracy printed in a benchmark table, but the run identifier and area under the ROC curve (AUC) are missing. How precisely can the reader recover the AUC? Across 2,688 public OpenML runs on seven classification tasks, accuracy rounded to a whole percentage point constrained AUC to within 0.01 for 1,066 runs (39.66%). Adding Cohen’s kappa rounded to one decimal place raised coverage to 1,110 (41.29%). Retaining an extra decimal place in both fields raised coverage to 2,216 (82.44%). In a blinded trial, two small instruction-tuned models each identified 56 of 112 source runs under either coarse report. A rule that checked the visible fields identified 59 when kappa was available. Even two runs with identical unrounded accuracy and kappa exhibited a 0.259483 AUC difference. A stable run identifier preserves information that additional digits recover unevenly across tasks.
+Suppose a classification report names its task and gives rounded accuracy and Cohen’s kappa, but omits the run identifier and area under the ROC curve (AUC). Which reports still constrain the missing AUC to within 0.01? We held 2,688 public OpenML reports fixed and enlarged the set of candidate runs from 384 to 1,536 per task on seven tasks. For whole-percentage accuracy and one-decimal kappa, coverage fell from 1,110 reports (41.29%) to 792 (29.46%). At a finer precision it fell from 2,216 (82.44%) to 1,634 (60.79%). The extra 8,064 runs supplied previously missing counterexamples. A run identifier avoids the uncertainty caused by a changing candidate catalog. These counts describe the retrieved archive pages and do not measure a person’s ability to reconstruct an experiment.
 
-## A missing run identifier
+## The question a printed score can answer
 
-Accuracy and Cohen’s kappa summarize the predicted class labels. AUC also uses the order of the scores assigned to those labels [1]. A reader tracing a finding to its source therefore faces two questions. Does the printed row identify the archived run? If several runs fit, do their AUCs agree closely enough to recover the missing number? OpenML links runs to task and workflow identifiers and stores evaluation metrics [2, 3], so both questions can be checked against public experimental records.
+Accuracy and kappa summarize classified labels. AUC also depends on how a classifier ranks examples [1]. OpenML assigns an identifier to each run and links that run to its task and workflow implementation, called a flow [2]. Suppressing the run identifier leaves a practical question: if several runs agree with a printed row, do their archived AUCs at least agree to the required precision?
 
-A multiverse analysis enumerates reasonable choices in processing or analysis [4]. Here the candidate results already existed before the audit. An observed difference between compatible runs can be checked against the original records, even when several runs share a workflow. Work on computational reproduction with independent human analysts documents practical errors in recovering analysis decisions [5]. The experiment here isolates one earlier step, linking the numbers in a report to an archived run.
+For each report, group all same-task candidates that agree on the visible fields after decimal rounding, with ties rounded to even and signed zeros treated equally. Write L and H for the smallest and largest compatible AUC. A single estimate can lie within 0.01 of every candidate exactly when H − L ≤ 0.02. If the condition holds, the midpoint works. If it fails, the two endpoints themselves cannot both lie within 0.01 of any one estimate. The specified tolerance refers to the precision of reconstruction. A unique-run match is a separate event.
 
-## Cases and recovery criterion
+Adding candidate runs can only expand a group’s AUC range, provided the original reports remain fixed. This gives a direct test of apparent recovery: hold the reported rows and their rounding unchanged, add public runs that a reader could also have found, and count which guarantees disappear.
 
-Eight specified OpenML classification task IDs were queried on 21 November 2026. Task 44 returned “Unknown task” and no evaluations. For each remaining task the first 384 entries returned for each of predictive accuracy, kappa and AUC were intersected by run ID. All 384 records per task survived the join and range checks. These pages cover 180 distinct flow IDs. A flow identifies a workflow implementation, and multiple parameter choices or runs can use the same flow. The query order and the fixed page limit confine inference to this catalog.
+## Catalog and sampling order
 
-For one original run, collect every archived run on the same task whose displayed fields agree after decimal rounding, with ties rounded to even. For catalog grouping, positive and negative zero denote the same number. The source is identifiable when the set has one member. Let L and H be the lowest and highest archived AUC among the candidates. Their midpoint is within 0.01 of every candidate exactly when H − L ≤ 0.02. The reported coverage is the fraction of original runs satisfying that criterion. The 0.01 tolerance specifies the precision of the recovery question. It carries no claim about what AUC difference matters in an application. All comparisons weight the seven tasks equally.
+The study covers seven OpenML classification tasks: kr-vs-kp (3), letter (6), mfeat-factors (12), cmc (23), optdigits (28), credit-g (31) and diabetes (37). A separate request for task 44 returned “Unknown task” and contributed no data. For each completed task, we downloaded accuracy, kappa and AUC evaluations, joined by run ID, and checked task, flow, finiteness and score ranges. OpenML’s evaluation interface supports task filters, page limits and offsets [3].
 
-## An extra digit helps more on some tasks
+The first 384 records per metric and task gave 2,688 target reports. To test their dependence on the candidate set, we added three disjoint 384-entry pages per metric and task, at offsets 384, 1,536 and 3,072. All 384 runs joined across the three metrics on each page. The expanded catalog contained 10,752 distinct runs and 241 distinct flows. Candidates are always restricted to their report’s task. These fixed offsets provide extra competitors while preserving the target population. They are a convenience sample of archive pages. Runs at intervening and later offsets can further reduce fixed-report coverage.
 
-At whole-percentage accuracy, adding one decimal place of kappa moved 44 runs across the tolerance threshold. Coverage improved on three tasks and was unchanged on four. Its increase of 1.64 percentage points ranged from 0.95 to 1.91 points on omitting each task in turn. Exact source identification rose from 30 to 43 of 2,688 runs. The difference between identifying a run and identifying its missing metric is large on letter, where only 14 runs were unique under the coarse two-field export yet 324 had a tightly constrained AUC.
+The ordering clusters workflows. The four page positions across tasks contained 180, 57, 3 and 16 distinct flows respectively. Flow 2228 accounted for 1,204 of the 2,688 first-page runs (44.79%) and 1,764 of the 10,752 pooled runs (16.41%). Treating all runs as independent draws from a population of algorithms would give misleading precision.
 
-Reporting accuracy to 0.1 percentage point alone covered 1,721 runs (64.03%). Adding kappa to 0.01 then covered 2,216. The largest gains were on cmc, credit-g and diabetes. Precision cannot resolve all ranking differences. On credit-g, runs 256 and 578244 each had predictive accuracy 0.700000 and kappa 0.000000, yet their archived AUCs were 0.500000 and 0.759483. Both belong to the group of 27 runs with coarse report (70%, 0.0). This is the widest AUC range among the coarse two-field groups.
+## What changes when the reader searches further?
 
-One widely reused flow, ID 2228, accounts for 1,204 runs (44.79%). In exploratory checks the coarse-kappa coverage gain was 3.02 percentage points after that flow was omitted and 3.50 points after retaining only the lowest-numbered run for each task–flow combination. Those rules change the comparison catalog. They show how candidate multiplicity affects the size of the gain.
+| Visible fields | First 2,688 reports, first-page candidates | Same reports, expanded candidates | All 10,752 reports, expanded candidates |
+| --- | --- | --- | --- |
+| Accuracy, 1 percentage point | 1,066 (39.66%) | 782 (29.09%) | 3,167 (29.45%) |
+| Same accuracy + kappa to 0.1 | 1,110 (41.29%) | 792 (29.46%) | 3,192 (29.69%) |
+| Accuracy, 0.1 percentage point | 1,721 (64.03%) | 1,207 (44.90%) | 4,925 (45.81%) |
+| Same accuracy + kappa to 0.01 | 2,216 (82.44%) | 1,634 (60.79%) | 6,706 (62.37%) |
 
+Table 1. Reports for which the full range of same-task compatible archived AUC values spans at most 0.02. The first two columns hold every reported run fixed. The last column also changes the target population. Each task has equal weight within a column.
 
-| OpenML task | Accuracy 1 pp | + kappa 0.1 | Accuracy 0.1 pp | + kappa 0.01 |
-| --- | --- | --- | --- | --- |
-| kr-vs-kp | 65 | 65 | 132 | 132 |
-| letter | 324 | 324 | 371 | 371 |
-| mfeat-factors | 322 | 322 | 351 | 351 |
-| cmc | 13 | 23 | 308 | 336 |
-| optdigits | 312 | 312 | 372 | 372 |
-| credit-g | 17 | 39 | 92 | 325 |
-| diabetes | 13 | 25 | 95 | 329 |
-| Total | 1,066 | 1,110 | 1,721 | 2,216 |
-Table 1. Runs whose compatible AUC range spans at most 0.02. Each task contributes 384 runs. The kappa columns add the stated precision to the preceding accuracy column. pp = percentage points.
+With the coarse pair of fields, 318 original reports lost their guarantee. With the finer pair, 582 lost it. For the original targets, adding coarse kappa covered only 10 additional cases after expanding the search (792 versus 782). Even the fine report identified a unique run for only 162 of the original targets in the expanded catalog, although it constrained AUC for 1,634. On credit-g, for example, runs 256 and 578244 each have archived accuracy 0.700000 and kappa 0.000000, but their AUCs are 0.500000 and 0.759483. Printing those label metrics at their archived precision leaves the 0.259483 difference unresolved.
 
-## Masked linkage against a field-matching rule
+To isolate page composition at a fixed size, we also formed 200 catalogs by sampling 384 of the 1,536 retrieved runs uniformly without replacement within each task. In this sensitivity check each draw supplied its own target reports and candidates. Coarse two-field coverage ranged from 967 to 1,250 of 2,688 (35.97–46.50%). Fine two-field coverage ranged from 1,952 to 2,287 (72.62–85.08%). These ranges describe the specified draws from the observed pages. They do not estimate uncertainty over the entire archive.
 
-A locally frozen protocol sampled 16 disjoint pairs per task with identical whole-percentage accuracy. One member was selected at random under exact within-task left–right balance. Each pair generated two separate queries, first with the target’s accuracy and then with its accuracy and kappa. Both candidate cards always showed accuracy and kappa. Run IDs, task names, AUCs and the key were absent. The 224 query records per model contained 86 distinct rendered texts. Every distinct prompt started with empty model context.
+## What to preserve in a benchmark table
 
-Qwen2.5-0.5B-Instruct and SmolLM2-135M-Instruct are separately released model families [6, 7]. Local four-bit checkpoints were forced to choose A or B using the higher next-token logit. Both selected A in all 224 primary responses, matching a constant-position baseline. Each therefore got 56/112 in each condition, with mean absolute AUC error 0.00858. Kappa distinguished only four pairs. A leftmost-compatible rule got all four right, reached 59/112 overall with kappa, and reduced mean absolute error to 0.00650. Uniform guessing had 56/112 expected exact matches and expected absolute AUC error 0.00711 in both arms. The seven task-level accuracies of the rule with kappa give leave-one-task-out means of 51.04% to 53.13%.
+The credit-g pair shows that AUC generally cannot be derived from accuracy and kappa alone. A compatible observed pair that disagrees is sufficient evidence of ambiguity. A catalog with no observed disagreement leaves open the possibility of other compatible runs. The difference is especially important when search results cluster by workflow.
 
-To check whether the systems used an informative field at all, an exploratory positive control used 49 additional run pairs from four tasks. Both candidates matched accuracy, their rounded kappas differed, and each member served once as the target. The field-matching rule solved all 98 queries. Qwen solved 59 and selected A on 88. SmolLM2 solved 49 and selected A on all 98. These deliberately separable examples measure positional preference under this prompt. They provide no estimate of the prevalence of informative records or the accuracy of other prompts, checkpoints or people.
-
-## Checking what the archived AUC means
-
-As a check on the numerical reference, two public out-of-fold prediction files were read directly. For each class, AUC was computed from the ranks of the predicted scores, averaging tied ranks. For the chess task, run 28, pooling the predictions gave 0.97725267 against the archived 0.977253. Averaging the ten fold AUCs instead gave 0.97544136. For the digit task, run 73, pooling predictions and weighting one-versus-rest AUCs by class frequency gave 0.97008265 against the archived 0.970083. Equal class weights gave 0.97009003. These two checks recover published numbers to their six displayed decimals under the stated choices. They establish neither the scoring implementation used for every OpenML run nor successful refitting of a classifier.
-
-## What to retain in a result table
-
-Recording the run ID resolves the linkage problem directly while the archive remains accessible. When a numeric result must also stand on its own, the score name, precision, class weighting and treatment of folds matter. Workflow Run RO-Crate provides a machine-readable way to associate inputs, outputs and code with a run [8]. The source identifier and aggregation recipe serve different needs.
-
-The catalog contains a fixed first page for each metric on seven tasks. Adding more runs can only preserve or enlarge an existing run’s compatible AUC range. The leave-one-task-out ranges describe sensitivity to these seven tasks and give no population confidence statement. The local protocol freeze has no external registration timestamp. Neither model was permitted to inspect the archive or write a reconstruction program. A human follow-up has prepared participant forms and a separately held scoring key. One task asks readers to identify records. A second asks them to write and return executable AUC calculations from eight anonymized prediction files unseen in the model study, with the aggregation instructions either supplied or withheld for all eight cases assigned to a reader. Blinded human linkage and re-execution have yet to be measured.
+A report can avoid a catalog search by recording the run ID with the metric and its aggregation convention. As a check on the archived target, we separately reconstructed two AUCs from public out-of-fold prediction files. Pooling predictions matched the six-decimal archived binary AUC for run 28 and the class-frequency-weighted multiclass AUC for run 73. Taking the mean of the per-fold AUCs produced different values in both cases. Those two checks do not establish how all archived AUCs were computed. The study addresses information preserved in an export; measuring analyst performance requires separately observed human reruns.
 
 ## Data and code availability
 
-The supplement contains the OpenML run, flow and task IDs, 21 source requests with response hashes, scored records, exact prompts and model response logits. It also contains the aggregation audit, checkpoint download instructions, locally frozen protocol and blank forms for a future human study. The coordinator holds the unadministered case packets and answer keys separately. Sources for the two prediction files are listed in prediction_sources.csv. The inference software and scripts run locally.
-
-[Study files, software and source records](https://github.com/VEDANT1602/materials-workflow-replay/tree/main/study)
+The supplement distributes the catalog of metric values, flow and run identifiers, source URLs and response hashes, join counts and precision calculations. It includes all per-task outputs and seeds for the fixed-size catalog draws. [Study code, source records and instructions](https://github.com/VEDANT1602/materials-workflow-replay/tree/main/study)
 
 ## Author and disclosures
 
-Vedant Thaker is the sole author and set the research question. OpenAI Codex assisted with the archive design, code, execution, literature checks and manuscript drafting. The same model family participated in preliminary reconstruction work, and one preliminary responder had prior exposure to a result. That pilot contributes no observations here. Qwen and SmolLM2 supplied the masked responses reported above. They received neither the manuscript nor the answer key.
+Vedant Thaker is the sole author and set the research question. OpenAI Codex assisted with designing and running the archive comparisons, checking source material and drafting the manuscript. All results reported here come from archived classifier evaluations or computations on those evaluations.
 
 This research received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors. The author declares no competing interests.
 
@@ -80,13 +64,3 @@ This research received no specific grant from any funding agency in the public, 
 [2] J. Vanschoren, J. N. van Rijn and B. Bischl. Taking machine learning research online with OpenML. Proceedings of Machine Learning Research 41, 1–4 (2015). <https://proceedings.mlr.press/v41/vanschoren15.pdf>
 
 [3] OpenML. Documentation for list_evaluations, the task-filtered run-evaluation interface. <https://openml.github.io/openml-python/main/generated/openml.evaluations.list_evaluations.html>
-
-[4] S. Steegen, F. Tuerlinckx, A. Gelman and W. Vanpaemel. Increasing transparency through a multiverse analysis. Perspectives on Psychological Science 11, 702–712 (2016). <https://doi.org/10.1177/1745691616658637>
-
-[5] N. Breznau et al. The reliability of replications: a study in computational reproductions. Royal Society Open Science 12, 241038 (2025). <https://doi.org/10.1098/rsos.241038>
-
-[6] Qwen Team. Qwen2.5-0.5B-Instruct-GGUF. Version 9217f5d, Q4_K_M checkpoint. <https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct-GGUF/tree/9217f5db79a29953eb74d5343926648285ec7e67>
-
-[7] Hugging Face Smol Models Research. SmolLM2-135M-Instruct. Model card and checkpoint documentation. <https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct>
-
-[8] S. Leo et al. Recording provenance of workflow runs with RO-Crate. PLOS ONE 19, e0309210 (2024). <https://doi.org/10.1371/journal.pone.0309210>

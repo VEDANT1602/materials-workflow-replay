@@ -1,12 +1,9 @@
-# Can rounded classifier scores identify an archived result?
+# How the candidate catalog changes the recovery of a missing classifier score
 
-Working paper by Vedant Thaker, Independent Researcher, Jeffersonville, Indiana. Correspondence: vedant.thaker1602@gmail.com.
+Reproducibility study by Vedant Thaker, Independent Researcher, Jeffersonville, Indiana, USA.
 
-A reader has the dataset name and the accuracy printed in a benchmark table, but the run identifier and area under the ROC curve (AUC) are missing. How precisely can the reader recover the AUC? Across 2,688 public OpenML runs on seven classification tasks, accuracy rounded to a whole percentage point constrained AUC to within 0.01 for 1,066 runs (39.66%). Adding Cohen’s kappa rounded to one decimal place raised coverage to 1,110 (41.29%). Retaining an extra decimal place in both fields raised coverage to 2,216 (82.44%). In a blinded trial, two small instruction-tuned models each identified 56 of 112 source runs under either coarse report. A rule that checked the visible fields identified 59 when kappa was available. Even two runs with identical unrounded accuracy and kappa exhibited a 0.259483 AUC difference. A stable run identifier preserves information that additional digits recover unevenly across tasks.
+Suppose a classification report names its task and gives rounded accuracy and Cohen’s kappa, but omits the run identifier and area under the ROC curve (AUC). Which reports still constrain the missing AUC to within 0.01? We held 2,688 public OpenML reports fixed and enlarged the set of candidate runs from 384 to 1,536 per task on seven tasks. For whole-percentage accuracy and one-decimal kappa, coverage fell from 1,110 reports (41.29%) to 792 (29.46%). At a finer precision it fell from 2,216 (82.44%) to 1,634 (60.79%). The extra 8,064 runs supplied previously missing counterexamples. A run identifier avoids the uncertainty caused by a changing candidate catalog. These counts describe the retrieved archive pages and do not measure a person’s ability to reconstruct an experiment.
 
-- [Read the paper](manuscript.pdf)
-- [Read the plain-text manuscript](manuscript.md)
-- [Reproduce the analysis and inspect the source and data records](study/README.md)
-- [Software license](LICENSE) and [third-party terms](LICENSING.md)
-- [Preparation record](study/PREPARATION.md)
-- [Previous manuscript and supplements](https://github.com/VEDANT1602/materials-workflow-replay/tree/8c26d42b38d18174733b57c1ffd6b50c3fb8d4fa)
+[Paper (PDF)](manuscript.pdf) · [Editable text](manuscript.md) · [Methods and study files](study/README.md) · [Manuscript history](study/VERSION.md)
+
+[Author-owned software license](LICENSE) · [Third-party terms](LICENSING.md) · [Previous version](https://github.com/VEDANT1602/materials-workflow-replay/tree/7f2f14f759fc8cc6cd31432f04b58a35dec60b9f)
