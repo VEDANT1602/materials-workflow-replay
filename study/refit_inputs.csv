@@ -1,0 +1,11 @@
+file,url,sha256
+data-31.arff,https://openml.org/data/v1/download/31/credit-g.arff,768be84ef749110d5fcac109a6541f2df190e8c6987e1dc432c0a4f29d0642f5
+pentaho-package-manager-1.0.11.jar,https://repo.maven.apache.org/maven2/org/pentaho/pentaho-commons/pentaho-package-manager/1.0.11/pentaho-package-manager-1.0.11.jar,96233a8ba685e42edd14837deee8d8f326448850863eac0ebc8c03a2ad24ba42
+pentaho-package-manager-1.0.8.jar,https://repo.maven.apache.org/maven2/org/pentaho/pentaho-commons/pentaho-package-manager/1.0.8/pentaho-package-manager-1.0.8.jar,c46e613a5a50246e3b61c3614df8a129462f039782a1e9882097a0ba3941e4ac
+pred-256.arff,https://openml.org/data/download/574/weka_generated_predictions2853103663480282423.arff,b674db3fddb69b42be4fb72fbc7a484b0483fa5f3883158214bcc390f7744311
+pred-51.arff,https://openml.org/data/download/164/weka_generated_predictions4350295154874297575.arff,9d6cfa09ce2d0ca42acf055f5f4dbb63ab6b90d3e63656bf9441ae92cfadc237
+pred-578244.arff,https://openml.org/data/download/1995752/weka_generated_predictions2145983570657464197.arff,acbd7f8d28f5e6c112e1ebb2c9b02c13578697ee511343c990b9aa49377aae4c
+pred-71.arff,https://openml.org/data/download/204/weka_generated_predictions6976178470560329543.arff,f5b2b7dbb31072955f6b3bd89d9571aced95d33389a41c2002508e390badb340
+split-31.arff,https://openml.org/api_splits/get/31/Task_31_splits.arff,71a9403433b9461501ecddd9388889c519d423fbaf33a4f5832484ed8dece7b5
+weka-dev-3.7.10.jar,https://repo.maven.apache.org/maven2/nz/ac/waikato/cms/weka/weka-dev/3.7.10/weka-dev-3.7.10.jar,e1df7bcdde6acda4a1bf980015470dd1bf49a1b1e0a3eefd1a92e0d4b5669889
+weka-dev-3.7.13.jar,https://repo.maven.apache.org/maven2/nz/ac/waikato/cms/weka/weka-dev/3.7.13/weka-dev-3.7.13.jar,41ac002540c42e9d519f904ef13fb0f12e2b5313cdc31aa7e06de458176c88eb

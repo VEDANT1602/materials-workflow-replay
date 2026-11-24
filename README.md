@@ -1,9 +1,9 @@
 # How the candidate catalog changes the recovery of a missing classifier score
 
-Reproducibility study by Vedant Thaker, Independent Researcher, Jeffersonville, Indiana, USA.
+Reproducibility study by Vedant Thaker, Independent Researcher, Jeffersonville, Indiana, USA. Revised November 24, 2026.
 
-Suppose a classification report names its task and gives rounded accuracy and Cohen’s kappa, but omits the run identifier and area under the ROC curve (AUC). Which reports still constrain the missing AUC to within 0.01? We held 2,688 public OpenML reports fixed and enlarged the set of candidate runs from 384 to 1,536 per task on seven tasks. For whole-percentage accuracy and one-decimal kappa, coverage fell from 1,110 reports (41.29%) to 792 (29.46%). At a finer precision it fell from 2,216 (82.44%) to 1,634 (60.79%). The extra 8,064 runs supplied previously missing counterexamples. A run identifier avoids the uncertainty caused by a changing candidate catalog. These counts describe the retrieved archive pages and do not measure a person’s ability to reconstruct an experiment.
+A printed accuracy and Cohen’s kappa can match several archived classifier runs with different areas under the ROC curve (AUC). For a fixed report, adding candidates can only widen the compatible AUC range. The empirical question is how many reports lose a useful numerical bound. Across seven OpenML tasks, expanding the search from 384 to 1,536 candidates per task removed the ±0.01 guarantee for 318 of 1,110 initially covered reports at coarse rounding (28.65%) and 582 of 2,216 at finer rounding (26.26%). The 2,688 target reports stayed fixed. Four named classifiers were refitted on the published credit-g folds. Two had identical accuracy (0.700) and kappa (0), yet their six-decimal AUCs were 0.500000 and 0.759483. The catalog counts measure ambiguity within four retrieved pages per task. The refits show how that ambiguity arose for one pair of workflows.
 
 [Paper (PDF)](manuscript.pdf) · [Editable text](manuscript.md) · [Methods and study files](study/README.md) · [Manuscript history](study/VERSION.md)
 
-[Author-owned software license](LICENSE) · [Third-party terms](LICENSING.md) · [Previous version](https://github.com/VEDANT1602/materials-workflow-replay/tree/7f2f14f759fc8cc6cd31432f04b58a35dec60b9f)
+[Author-owned software license](LICENSE) · [Third-party terms](LICENSING.md) · [Previous version](https://github.com/VEDANT1602/materials-workflow-replay/tree/dd25dfa4c070c7bd34a78c382b4a009138cb2d92)

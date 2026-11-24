@@ -1,0 +1,5 @@
+excluded_flow,precision,first_targets,first_covered,expanded_covered,lost
+none,coarse,2688,1110,792,318
+none,fine,2688,2216,1634,582
+2228,coarse,1484,638,320,318
+2228,fine,1484,1201,967,234

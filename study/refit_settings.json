@@ -1,0 +1,76 @@
+[
+  {
+    "run": 256,
+    "flow": 56,
+    "workflow": "weka.ZeroR",
+    "version": "3.7.10",
+    "manager_version": "1.0.8",
+    "options": [
+      "weka.classifiers.rules.ZeroR"
+    ],
+    "run_url": "https://www.openml.org/r/256",
+    "flow_url": "https://www.openml.org/f/56",
+    "setup_string": "weka.classifiers.rules.ZeroR"
+  },
+  {
+    "run": 578244,
+    "flow": 3935,
+    "workflow": "weka.LWL_DecisionStump",
+    "version": "3.7.13",
+    "manager_version": "1.0.11",
+    "options": [
+      "weka.classifiers.lazy.LWL",
+      "-U",
+      "0",
+      "-K",
+      "-1",
+      "-A",
+      "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\"",
+      "-W",
+      "weka.classifiers.trees.DecisionStump"
+    ],
+    "run_url": "https://www.openml.org/r/578244",
+    "flow_url": "https://www.openml.org/f/3935",
+    "setup_string": "weka.classifiers.lazy.LWL -- -U 0 -K -1 -A \"weka.core.neighboursearch.LinearNNSearch -A \\\"weka.core.EuclideanDistance -R first-last\\\"\" -W weka.classifiers.trees.DecisionStump"
+  },
+  {
+    "run": 51,
+    "flow": 57,
+    "workflow": "weka.OneR",
+    "version": "3.7.10",
+    "manager_version": "1.0.8",
+    "options": [
+      "weka.classifiers.rules.OneR",
+      "-B",
+      "6"
+    ],
+    "run_url": "https://www.openml.org/r/51",
+    "flow_url": "https://www.openml.org/f/57",
+    "setup_string": "weka.classifiers.rules.OneR -- -B 6"
+  },
+  {
+    "run": 71,
+    "flow": 61,
+    "workflow": "weka.REPTree",
+    "version": "3.7.10",
+    "manager_version": "1.0.8",
+    "options": [
+      "weka.classifiers.trees.REPTree",
+      "-M",
+      "2",
+      "-V",
+      "0.001",
+      "-N",
+      "3",
+      "-S",
+      "1",
+      "-L",
+      "-1",
+      "-I",
+      "0.0"
+    ],
+    "run_url": "https://www.openml.org/r/71",
+    "flow_url": "https://www.openml.org/f/61",
+    "setup_string": "weka.classifiers.trees.REPTree -- -M 2 -V 0.001 -N 3 -S 1 -L -1 -I 0.0"
+  }
+]

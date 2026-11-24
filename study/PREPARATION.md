@@ -9,3 +9,15 @@ The supplement README identifies the inputs and computations needed to inspect t
 ## Current work
 
 Vedant Thaker is the sole author and set the research question. OpenAI Codex assisted with designing and running the archive comparisons, checking source material and drafting the manuscript. All results reported here come from archived classifier evaluations or computations on those evaluations.
+
+## November 22 analysis
+
+On November 22 four archived credit-g classifiers were refitted on OpenML’s task 31 partitions. The Java worker masked test outcomes; the comparison code accessed the archived predictions after fitting. All forty fits and the resulting aggregate counts were checked. No human participant completed the masked-report study.
+
+## Date verification on November 22, 2026
+
+The author reports October 28–November 18, 2026 for the original work. The first PDF commit falls on the final day of the author-reported interval. The start date and earlier work cannot be verified from this history. The [first PDF commit](https://github.com/VEDANT1602/materials-workflow-replay/commit/5b31e983811775ebf911336911e1c3a743035624), the November 20 review copy, and the November 21 and 22 manuscript versions are recorded separately in [the manuscript history](VERSION.md).
+
+## November 24 editorial work
+
+Vedant Thaker supplied the critique and requested this revision. OpenAI Codex assisted with the analysis checks and revised prose. The manuscript describes the study-specific work and its limitations.
